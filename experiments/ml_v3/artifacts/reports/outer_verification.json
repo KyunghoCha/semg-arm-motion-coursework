@@ -1,0 +1,122 @@
+[
+  {
+    "folder": "results/outer/outer0/legacy_lda",
+    "replay_exact": true,
+    "probability_max_abs_error": 0.0,
+    "train_only_scaler_exact": true,
+    "single_feature_input_ms": 0.14732763869687915,
+    "excludes_feature_extraction": true
+  },
+  {
+    "folder": "results/outer/outer0/legacy_svm1",
+    "replay_exact": true,
+    "probability_max_abs_error": 0.0,
+    "train_only_scaler_exact": true,
+    "single_feature_input_ms": 0.30162181006744504,
+    "excludes_feature_extraction": true
+  },
+  {
+    "folder": "results/outer/outer0/robust_lda",
+    "replay_exact": true,
+    "probability_max_abs_error": 0.0,
+    "train_only_scaler_exact": true,
+    "single_feature_input_ms": 0.16265555983409286,
+    "excludes_feature_extraction": true
+  },
+  {
+    "folder": "results/outer/outer1/legacy_lda",
+    "replay_exact": true,
+    "probability_max_abs_error": 0.0,
+    "train_only_scaler_exact": true,
+    "single_feature_input_ms": 0.1453748601488769,
+    "excludes_feature_extraction": true
+  },
+  {
+    "folder": "results/outer/outer1/legacy_svm1",
+    "replay_exact": true,
+    "probability_max_abs_error": 0.0,
+    "train_only_scaler_exact": true,
+    "single_feature_input_ms": 0.3107070014812052,
+    "excludes_feature_extraction": true
+  },
+  {
+    "folder": "results/outer/outer1/robust_lda",
+    "replay_exact": true,
+    "probability_max_abs_error": 0.0,
+    "train_only_scaler_exact": true,
+    "single_feature_input_ms": 0.1582025596871972,
+    "excludes_feature_extraction": true
+  },
+  {
+    "folder": "results/outer/outer2/fusion_et3_independent",
+    "replay_exact": true,
+    "probability_max_abs_error": 2.220446049250313e-16,
+    "train_only_scaler_exact": true,
+    "single_feature_input_ms": 59.8998481198214,
+    "excludes_feature_extraction": true
+  },
+  {
+    "folder": "results/outer/outer2/legacy_svm1",
+    "replay_exact": true,
+    "probability_max_abs_error": 0.0,
+    "train_only_scaler_exact": true,
+    "single_feature_input_ms": 0.2980898995883763,
+    "excludes_feature_extraction": true
+  },
+  {
+    "folder": "results/outer/outer2/robust_lda",
+    "replay_exact": true,
+    "probability_max_abs_error": 0.0,
+    "train_only_scaler_exact": true,
+    "single_feature_input_ms": 0.16935596009716392,
+    "excludes_feature_extraction": true
+  },
+  {
+    "folder": "results/outer/outer3/fusion_et3_independent",
+    "replay_exact": true,
+    "probability_max_abs_error": 1.6653345369377348e-16,
+    "train_only_scaler_exact": true,
+    "single_feature_input_ms": 62.37200287170708,
+    "excludes_feature_extraction": true
+  },
+  {
+    "folder": "results/outer/outer3/legacy_svm1",
+    "replay_exact": true,
+    "probability_max_abs_error": 0.0,
+    "train_only_scaler_exact": true,
+    "single_feature_input_ms": 0.3096554591320455,
+    "excludes_feature_extraction": true
+  },
+  {
+    "folder": "results/outer/outer3/robust_lda",
+    "replay_exact": true,
+    "probability_max_abs_error": 0.0,
+    "train_only_scaler_exact": true,
+    "single_feature_input_ms": 0.1647010096348822,
+    "excludes_feature_extraction": true
+  },
+  {
+    "folder": "results/outer/outer4/fusion_et3_independent",
+    "replay_exact": true,
+    "probability_max_abs_error": 2.220446049250313e-16,
+    "train_only_scaler_exact": true,
+    "single_feature_input_ms": 63.419077838771045,
+    "excludes_feature_extraction": true
+  },
+  {
+    "folder": "results/outer/outer4/fusion_hgb31",
+    "replay_exact": true,
+    "probability_max_abs_error": 0.0,
+    "train_only_scaler_exact": true,
+    "single_feature_input_ms": 6.741625010035932,
+    "excludes_feature_extraction": true
+  },
+  {
+    "folder": "results/outer/outer4/legacy_svm1",
+    "replay_exact": true,
+    "probability_max_abs_error": 0.0,
+    "train_only_scaler_exact": true,
+    "single_feature_input_ms": 0.31431091018021107,
+    "excludes_feature_extraction": true
+  }
+]

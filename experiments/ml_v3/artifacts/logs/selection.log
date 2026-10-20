@@ -1,0 +1,3 @@
+LOCKED fusion_et3_independent [('legacy_lda', ['legacy_lda', 'robust_lda']), ('robust_lda', ['robust_lda', 'legacy_lda']), ('fusion_et3_independent', ['fusion_et3_independent', 'robust_lda']), ('fusion_et3_independent', ['fusion_et3_independent', 'robust_lda']), ('fusion_et3_independent', ['fusion_et3_independent', 'fusion_hgb31'])]
+DEVELOPMENT LOCK fusion_ind_lda 0.5465454545454544 0.5138468155188504
+DIAGNOSTICS FROZEN ['fusion_et3_independent', 'fusion_ind_lda', 'legacy_svm1', 'mixed_et_lda_lowref5s']

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-10-20T18:51:38.401559+00:00",
+  "source_sha256": "45f038ad0a7e5c3224ff6d149b656c3fd59bb159e845a3cd422e820fe60259b7",
+  "amendment_sha256": "0d68b76ae2988cd98d273dd0deb625422f5d650452bce056a1003ba1b3ee65b8",
+  "candidates": {
+    "spectral256_hierarchical": "spectral256",
+    "spectral256_hierarchical_rms": "spectral256_rms",
+    "spectral256_gain_multitask": "spectral256"
+  },
+  "inputs": {
+    "spectral256_rms": "a56a8d71c4e64640f22467a84a4cad88d005f27c18b22062c76da02d5a230e06",
+    "spectral256": "981af0a58e0f7a0a8bb5b6bd1a8eecdb5a466b3201191642b0768c33a379282f"
+  }
+}

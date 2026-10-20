@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-20T18:44:45.744160+00:00",
+  "code_sha256": "584defdcbf4f8fd7261ed333e0f1ed5d6e71cdde6ee076fe64718a8b714b4ec8",
+  "split_sha256": "4073a13b1d2354185103611687f21fdaea5d537f46e7538ac07a6b73ee38dc43",
+  "protocol": "C classroom random trial; fixed 1.5–3.5s; 19 windows x25 features",
+  "models": {
+    "SVM": "RBF C1 gamma scale",
+    "RF": "100 trees seed42, n_jobs2"
+  },
+  "aggregation": {
+    "window_vote": "train on 200ms windows; trial vote of 19 windows",
+    "trial_mean": "mean of 19 feature vectors before fitting; an explicit input-assembly sensitivity analysis"
+  },
+  "trial_mean_is_paper_method": false,
+  "xgboost_available": false,
+  "xgboost_status": "omitted: not installed on this PC; no installation authorization assumed"
+}

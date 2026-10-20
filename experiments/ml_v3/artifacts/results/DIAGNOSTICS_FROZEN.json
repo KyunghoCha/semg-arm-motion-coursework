@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-10-20T19:15:57.313471+00:00",
+  "models": [
+    "fusion_et3_independent",
+    "fusion_ind_lda",
+    "legacy_svm1",
+    "mixed_et_lda_lowref5s"
+  ],
+  "subjects": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h"
+  ],
+  "seeds": [
+    20261022,
+    20261023
+  ],
+  "source_sha256": "48c6081c9f6a57b3d38dca98efdf0c51c54b0dcedd2bebebc3faac00b1adb8bd",
+  "plan_sha256": "65dd150b59635011223ec45ecfa0e44e01e99c6d266e5d9de2095d6c77d08fa3",
+  "split_sha256": "ae9102888771c42fef53ded0eb438d6214bdae974f8f01e4e8d425ca16bdba5f",
+  "development_selection_sha256": "e57e15bd4fd084c622f99809a4cb4d1f6ab0910a25e86ba1142a8de6ff5e5eb3",
+  "interpretation": "fixed-model exploratory split sensitivity; prior model selection used these development data"
+}

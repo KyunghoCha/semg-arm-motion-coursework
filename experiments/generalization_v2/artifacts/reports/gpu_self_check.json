@@ -1,0 +1,37 @@
+{
+  "spectral1s": {
+    "shape_and_finite": true,
+    "state_replay_exact": true,
+    "toy_accuracy": 1.0
+  },
+  "spectral2s": {
+    "shape_and_finite": true,
+    "state_replay_exact": true,
+    "toy_accuracy": 1.0
+  },
+  "envelope_abs": {
+    "shape_and_finite": true,
+    "state_replay_exact": true,
+    "toy_accuracy": 1.0
+  },
+  "envelope_relative": {
+    "shape_and_finite": true,
+    "state_replay_exact": true,
+    "toy_accuracy": 1.0
+  },
+  "envelope_hybrid": {
+    "shape_and_finite": true,
+    "state_replay_exact": true,
+    "toy_accuracy": 1.0
+  },
+  "envelope_multitask": {
+    "shape_and_finite": true,
+    "state_replay_exact": true,
+    "toy_accuracy": 1.0
+  },
+  "spectral_multitask": {
+    "shape_and_finite": true,
+    "state_replay_exact": true,
+    "toy_accuracy": 1.0
+  }
+}

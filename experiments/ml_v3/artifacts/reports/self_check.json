@@ -1,0 +1,34 @@
+{
+  "legacy_svm1": {
+    "toy_fit_accuracy": 1.0,
+    "finite_normalized_probabilities": true
+  },
+  "fusion_et3": {
+    "toy_fit_accuracy": 1.0,
+    "finite_normalized_probabilities": true
+  },
+  "fusion_lda": {
+    "toy_fit_accuracy": 1.0,
+    "finite_normalized_probabilities": true
+  },
+  "fusion_hgb31": {
+    "toy_fit_accuracy": 1.0,
+    "finite_normalized_probabilities": true
+  },
+  "fusion_f32_svm1": {
+    "toy_fit_accuracy": 1.0,
+    "finite_normalized_probabilities": true
+  },
+  "fusion_pca_svm1": {
+    "toy_fit_accuracy": 1.0,
+    "finite_normalized_probabilities": true
+  },
+  "fusion_et3_independent": {
+    "toy_fit_accuracy": 1.0,
+    "finite_normalized_probabilities": true
+  },
+  "fusion_et3_hierarchy": {
+    "toy_fit_accuracy": 1.0,
+    "finite_normalized_probabilities": true
+  }
+}

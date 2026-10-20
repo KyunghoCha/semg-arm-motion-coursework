@@ -1,0 +1,713 @@
+[
+  {
+    "model": "legacy_svm1",
+    "reference": "legacy_svm1",
+    "hypothesis": "기존 CPU 특징과 평가를 재현하는가",
+    "changed": "legacy→legacy; SVM C1 고정",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.0,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "legacy_et3",
+    "reference": "legacy_svm1",
+    "hypothesis": "기존 CPU 특징과 평가를 재현하는가",
+    "changed": "동일 특징: SVM→ExtraTrees",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.01110275346312975,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "legacy_lda",
+    "reference": "legacy_svm1",
+    "hypothesis": "기존 CPU 특징과 평가를 재현하는가",
+    "changed": "동일 특징: SVM→shrinkage LDA",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.1235744653603141,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "robust_svm1",
+    "reference": "legacy_svm1",
+    "hypothesis": "중앙값과 IQR이 창별 변동을 보완하는가",
+    "changed": "legacy→robust; SVM C1 고정",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.010712508644804802,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "robust_et3",
+    "reference": "robust_svm1",
+    "hypothesis": "중앙값과 IQR이 창별 변동을 보완하는가",
+    "changed": "동일 특징: SVM→ExtraTrees",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.00969840249370521,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "robust_lda",
+    "reference": "robust_svm1",
+    "hypothesis": "중앙값과 IQR이 창별 변동을 보완하는가",
+    "changed": "동일 특징: SVM→shrinkage LDA",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.12298404118327277,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "spectrum_svm1",
+    "reference": "legacy_svm1",
+    "hypothesis": "주파수 분포와 진폭을 분리하면 기록 차이를 줄이는가",
+    "changed": "legacy→spectrum; SVM C1 고정",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.03688272018846386,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "spectrum_et3",
+    "reference": "spectrum_svm1",
+    "hypothesis": "주파수 분포와 진폭을 분리하면 기록 차이를 줄이는가",
+    "changed": "동일 특징: SVM→ExtraTrees",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.04148964201856126,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "spectrum_lda",
+    "reference": "spectrum_svm1",
+    "hypothesis": "주파수 분포와 진폭을 분리하면 기록 차이를 줄이는가",
+    "changed": "동일 특징: SVM→shrinkage LDA",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.050249528507130437,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "relations_svm1",
+    "reference": "legacy_svm1",
+    "hypothesis": "채널 상관·coherence·공분산이 개별 채널 특징을 보완하는가",
+    "changed": "legacy→relations; SVM C1 고정",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.017353240639930795,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "relations_et3",
+    "reference": "relations_svm1",
+    "hypothesis": "채널 상관·coherence·공분산이 개별 채널 특징을 보완하는가",
+    "changed": "동일 특징: SVM→ExtraTrees",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.01789330257553856,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "relations_lda",
+    "reference": "relations_svm1",
+    "hypothesis": "채널 상관·coherence·공분산이 개별 채널 특징을 보완하는가",
+    "changed": "동일 특징: SVM→shrinkage LDA",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.05091051846649963,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_svm1",
+    "reference": "legacy_svm1",
+    "hypothesis": "시간·주파수·채널 관계가 상보적인가",
+    "changed": "legacy→fusion; SVM C1 고정",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.031384483815449365,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_et3",
+    "reference": "fusion_svm1",
+    "hypothesis": "시간·주파수·채널 관계가 상보적인가",
+    "changed": "동일 특징: SVM→ExtraTrees",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.015519007957928044,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_lda",
+    "reference": "fusion_svm1",
+    "hypothesis": "시간·주파수·채널 관계가 상보적인가",
+    "changed": "동일 특징: SVM→shrinkage LDA",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.05432752118645762,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "relative_svm1",
+    "reference": "legacy_svm1",
+    "hypothesis": "표본별 상대량이 전체 이득 변화의 영향을 줄이는가",
+    "changed": "legacy→relative; SVM C1 고정",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.047057464925437276,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "relative_et3",
+    "reference": "relative_svm1",
+    "hypothesis": "표본별 상대량이 전체 이득 변화의 영향을 줄이는가",
+    "changed": "동일 특징: SVM→ExtraTrees",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.010796133473698427,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "relative_lda",
+    "reference": "relative_svm1",
+    "hypothesis": "표본별 상대량이 전체 이득 변화의 영향을 줄이는가",
+    "changed": "동일 특징: SVM→shrinkage LDA",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.11524600869165333,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "legacy_svm10",
+    "reference": "legacy_svm1",
+    "hypothesis": "SVM 규제 강도의 영향을 분리할 수 있는가",
+    "changed": "C1→C10",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.007646263937667569,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_rf3",
+    "reference": "fusion_et3",
+    "hypothesis": "시간·주파수·채널 관계가 상보적인가",
+    "changed": "동일 특징: ExtraTrees→RF; 말단 설정은 config 참조",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.035018080296501886,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_hgb31",
+    "reference": "fusion_et3",
+    "hypothesis": "시간·주파수·채널 관계가 상보적인가",
+    "changed": "동일 특징: ExtraTrees→Histogram GB",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.0023493120506989373,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_et3_independent",
+    "reference": "fusion_et3",
+    "hypothesis": "같은 특징과 트리에서 분류 구조만 바꿔 각도 구분을 개선하는가",
+    "changed": "joint→independent",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.2244098584335651,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_et3_hierarchy",
+    "reference": "fusion_et3",
+    "hypothesis": "같은 특징과 트리에서 분류 구조만 바꿔 각도 구분을 개선하는가",
+    "changed": "joint→hierarchy",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.016971389122343583,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "legacy_svm0.1",
+    "reference": "legacy_svm1",
+    "hypothesis": "SVM 규제 강도의 영향을 분리할 수 있는가",
+    "changed": "C1→C0.1",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.00827140415490657,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "robust_svm0.1",
+    "reference": "robust_svm1",
+    "hypothesis": "SVM 규제 강도의 영향을 분리할 수 있는가",
+    "changed": "C1→C0.1",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.03690026547921682,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "robust_svm10",
+    "reference": "robust_svm1",
+    "hypothesis": "SVM 규제 강도의 영향을 분리할 수 있는가",
+    "changed": "C1→C10",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.008686475959119616,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "spectrum_svm0.1",
+    "reference": "spectrum_svm1",
+    "hypothesis": "SVM 규제 강도의 영향을 분리할 수 있는가",
+    "changed": "C1→C0.1",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.04485098399618331,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "spectrum_svm10",
+    "reference": "spectrum_svm1",
+    "hypothesis": "SVM 규제 강도의 영향을 분리할 수 있는가",
+    "changed": "C1→C10",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.010263800511903343,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "relations_svm0.1",
+    "reference": "relations_svm1",
+    "hypothesis": "SVM 규제 강도의 영향을 분리할 수 있는가",
+    "changed": "C1→C0.1",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.013426976790348322,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "relations_svm10",
+    "reference": "relations_svm1",
+    "hypothesis": "SVM 규제 강도의 영향을 분리할 수 있는가",
+    "changed": "C1→C10",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.016100157171359708,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_svm0.1",
+    "reference": "fusion_svm1",
+    "hypothesis": "SVM 규제 강도의 영향을 분리할 수 있는가",
+    "changed": "C1→C0.1",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.06031260072483777,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_svm10",
+    "reference": "fusion_svm1",
+    "hypothesis": "SVM 규제 강도의 영향을 분리할 수 있는가",
+    "changed": "C1→C10",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.008088021777990978,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "relative_svm0.1",
+    "reference": "relative_svm1",
+    "hypothesis": "SVM 규제 강도의 영향을 분리할 수 있는가",
+    "changed": "C1→C0.1",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.022435547404187378,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "relative_svm10",
+    "reference": "relative_svm1",
+    "hypothesis": "SVM 규제 강도의 영향을 분리할 수 있는가",
+    "changed": "C1→C10",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.003147233810415734,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "legacy_rf1",
+    "reference": "legacy_et3",
+    "hypothesis": "기존 CPU 특징과 평가를 재현하는가",
+    "changed": "동일 특징: ExtraTrees→RF; 말단 설정은 config 참조",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.035427012049572965,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "legacy_rf6",
+    "reference": "legacy_rf1",
+    "hypothesis": "기존 CPU 특징과 평가를 재현하는가",
+    "changed": "RF leaf1→6",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.01878955233778476,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "spectrum_rf1",
+    "reference": "spectrum_et3",
+    "hypothesis": "주파수 분포와 진폭을 분리하면 기록 차이를 줄이는가",
+    "changed": "동일 특징: ExtraTrees→RF; 말단 설정은 config 참조",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.04231504057769381,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "spectrum_rf6",
+    "reference": "spectrum_rf1",
+    "hypothesis": "주파수 분포와 진폭을 분리하면 기록 차이를 줄이는가",
+    "changed": "RF leaf1→6",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.01992212869107557,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_rf1",
+    "reference": "fusion_et3",
+    "hypothesis": "시간·주파수·채널 관계가 상보적인가",
+    "changed": "동일 특징: ExtraTrees→RF; 말단 설정은 config 참조",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.02438357981611669,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_rf6",
+    "reference": "fusion_rf1",
+    "hypothesis": "시간·주파수·채널 관계가 상보적인가",
+    "changed": "RF leaf1→6",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.021923132120720917,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "legacy_et1",
+    "reference": "legacy_et3",
+    "hypothesis": "기존 CPU 특징과 평가를 재현하는가",
+    "changed": "leaf3→1",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.019647411370329132,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "legacy_et6",
+    "reference": "legacy_et3",
+    "hypothesis": "기존 CPU 특징과 평가를 재현하는가",
+    "changed": "leaf3→6",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.01213034820084885,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_et1",
+    "reference": "fusion_et3",
+    "hypothesis": "시간·주파수·채널 관계가 상보적인가",
+    "changed": "leaf3→1",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.013612559297559224,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_et6",
+    "reference": "fusion_et3",
+    "hypothesis": "시간·주파수·채널 관계가 상보적인가",
+    "changed": "leaf3→6",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.002483318636927523,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_hgb7",
+    "reference": "fusion_hgb31",
+    "hypothesis": "시간·주파수·채널 관계가 상보적인가",
+    "changed": "최대 말단31→7",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.003696710643971063,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_robustscale_svm1",
+    "reference": "fusion_svm1",
+    "hypothesis": "극단값에 덜 민감한 스케일이 도움이 되는가",
+    "changed": "StandardScaler→RobustScaler",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.0025330651238149593,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_pca_svm1",
+    "reference": "fusion_svm1",
+    "hypothesis": "중복되거나 기록에 과적합한 변수를 줄일 수 있는가",
+    "changed": "특징 변환=pca95; 나머지 설정 고정",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.0007519287507596062,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_f32_svm1",
+    "reference": "fusion_svm1",
+    "hypothesis": "중복되거나 기록에 과적합한 변수를 줄일 수 있는가",
+    "changed": "특징 변환=32; 나머지 설정 고정",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.04690875520118626,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_f32_et3",
+    "reference": "fusion_et3",
+    "hypothesis": "중복되거나 기록에 과적합한 변수를 줄일 수 있는가",
+    "changed": "특징 변환=32; 나머지 설정 고정",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.03356567641941932,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_f64_svm1",
+    "reference": "fusion_svm1",
+    "hypothesis": "중복되거나 기록에 과적합한 변수를 줄일 수 있는가",
+    "changed": "특징 변환=64; 나머지 설정 고정",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.06682422922400194,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_f64_et3",
+    "reference": "fusion_et3",
+    "hypothesis": "중복되거나 기록에 과적합한 변수를 줄일 수 있는가",
+    "changed": "특징 변환=64; 나머지 설정 고정",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.04992862007885285,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "upper_svm1",
+    "reference": "legacy_svm1",
+    "hypothesis": "CH4·CH5만 남기면 어떤 정보가 유지되는가",
+    "changed": "legacy→upper; SVM C1 고정",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.023027792517674256,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "upper_et3",
+    "reference": "upper_svm1",
+    "hypothesis": "CH4·CH5만 남기면 어떤 정보가 유지되는가",
+    "changed": "동일 특징: SVM→ExtraTrees",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.01862905820427374,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "forearm_svm1",
+    "reference": "legacy_svm1",
+    "hypothesis": "CH1–CH3만 남기면 어떤 정보가 유지되는가",
+    "changed": "legacy→forearm; SVM C1 고정",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.04777584337694349,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "forearm_et3",
+    "reference": "forearm_svm1",
+    "hypothesis": "CH1–CH3만 남기면 어떤 정보가 유지되는가",
+    "changed": "동일 특징: SVM→ExtraTrees",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": -0.015965065043758803,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "legacy_linear1",
+    "reference": "legacy_svm1",
+    "hypothesis": "기존 CPU 특징과 평가를 재현하는가",
+    "changed": "RBF SVM→LinearSVC",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.09205014563295152,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_et3_unweighted",
+    "reference": "fusion_et3",
+    "hypothesis": "클래스 가중치의 영향은 어느 정도인가",
+    "changed": "balanced→무가중치",
+    "fixed": "같은 1초·기록5겹·학습 폴드 통계",
+    "macro_f1_difference": 0.006474517482116415,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "legacy_ind_et3",
+    "reference": "legacy_et3",
+    "hypothesis": "8클래스를 직접 구분하는 대신 손동작과 각도별 표본을 모으면 경계 추정이 나아지는가",
+    "changed": "같은 특징·분류기, 8클래스 직접 분류→4동작+2각도 독립 분류",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.26056945819914656,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "robust_ind_et3",
+    "reference": "robust_et3",
+    "hypothesis": "8클래스를 직접 구분하는 대신 손동작과 각도별 표본을 모으면 경계 추정이 나아지는가",
+    "changed": "같은 특징·분류기, 8클래스 직접 분류→4동작+2각도 독립 분류",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.25638422450390785,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "spectrum_ind_et3",
+    "reference": "spectrum_et3",
+    "hypothesis": "8클래스를 직접 구분하는 대신 손동작과 각도별 표본을 모으면 경계 추정이 나아지는가",
+    "changed": "같은 특징·분류기, 8클래스 직접 분류→4동작+2각도 독립 분류",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.07601679165021236,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "relations_ind_et3",
+    "reference": "relations_et3",
+    "hypothesis": "8클래스를 직접 구분하는 대신 손동작과 각도별 표본을 모으면 경계 추정이 나아지는가",
+    "changed": "같은 특징·분류기, 8클래스 직접 분류→4동작+2각도 독립 분류",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.0578511942497944,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "relative_ind_et3",
+    "reference": "relative_et3",
+    "hypothesis": "8클래스를 직접 구분하는 대신 손동작과 각도별 표본을 모으면 경계 추정이 나아지는가",
+    "changed": "같은 특징·분류기, 8클래스 직접 분류→4동작+2각도 독립 분류",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.1824388236643013,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "legacy_ind_lda",
+    "reference": "legacy_lda",
+    "hypothesis": "8클래스를 직접 구분하는 대신 손동작과 각도별 표본을 모으면 경계 추정이 나아지는가",
+    "changed": "같은 특징·분류기, 8클래스 직접 분류→4동작+2각도 독립 분류",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.18522400431630093,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "robust_ind_lda",
+    "reference": "robust_lda",
+    "hypothesis": "8클래스를 직접 구분하는 대신 손동작과 각도별 표본을 모으면 경계 추정이 나아지는가",
+    "changed": "같은 특징·분류기, 8클래스 직접 분류→4동작+2각도 독립 분류",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.1776996052983058,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "spectrum_ind_lda",
+    "reference": "spectrum_lda",
+    "hypothesis": "8클래스를 직접 구분하는 대신 손동작과 각도별 표본을 모으면 경계 추정이 나아지는가",
+    "changed": "같은 특징·분류기, 8클래스 직접 분류→4동작+2각도 독립 분류",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.1748569550409042,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "relations_ind_lda",
+    "reference": "relations_lda",
+    "hypothesis": "8클래스를 직접 구분하는 대신 손동작과 각도별 표본을 모으면 경계 추정이 나아지는가",
+    "changed": "같은 특징·분류기, 8클래스 직접 분류→4동작+2각도 독립 분류",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.15070277620968697,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_ind_lda",
+    "reference": "fusion_lda",
+    "hypothesis": "8클래스를 직접 구분하는 대신 손동작과 각도별 표본을 모으면 경계 추정이 나아지는가",
+    "changed": "같은 특징·분류기, 8클래스 직접 분류→4동작+2각도 독립 분류",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.23199700858787664,
+    "decision": "1초 개발 대표로 채택"
+  },
+  {
+    "model": "relative_ind_lda",
+    "reference": "relative_lda",
+    "hypothesis": "8클래스를 직접 구분하는 대신 손동작과 각도별 표본을 모으면 경계 추정이 나아지는가",
+    "changed": "같은 특징·분류기, 8클래스 직접 분류→4동작+2각도 독립 분류",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.22165818364364465,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "legacy_ind_svm1",
+    "reference": "legacy_svm1",
+    "hypothesis": "8클래스를 직접 구분하는 대신 손동작과 각도별 표본을 모으면 경계 추정이 나아지는가",
+    "changed": "같은 특징·분류기, 8클래스 직접 분류→4동작+2각도 독립 분류",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.18008336848629622,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_ind_svm1",
+    "reference": "fusion_svm1",
+    "hypothesis": "8클래스를 직접 구분하는 대신 손동작과 각도별 표본을 모으면 경계 추정이 나아지는가",
+    "changed": "같은 특징·분류기, 8클래스 직접 분류→4동작+2각도 독립 분류",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.1606148114870658,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_ind_et6",
+    "reference": "fusion_et3_independent",
+    "hypothesis": "독립 분류기의 트리 말단을 키워 과적합을 줄일 수 있는가",
+    "changed": "leaf3→6",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.025897672030882446,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_ind_et3_unweighted",
+    "reference": "fusion_et3_independent",
+    "hypothesis": "클래스 가중치가 독립 구조의 이득을 설명하는가",
+    "changed": "balanced→무가중치",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": -0.0017719174924313852,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "fusion_ind_rf3",
+    "reference": "fusion_et3_independent",
+    "hypothesis": "독립 구조의 이득이 트리 분할 방법에 의존하는가",
+    "changed": "ExtraTrees→RF",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.04048672510572321,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "mixed_et_lda_logrms5",
+    "reference": "legacy_ind_lda",
+    "hypothesis": "각도 분류의 입력을 제한하면 기록별 진폭 변동과 불필요한 변수를 줄일 수 있는가",
+    "changed": "손동작 legacy/et, 각도 logrms5/lda",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": -0.11222519345379783,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "mixed_et_lda_logrms_upper",
+    "reference": "mixed_et_lda_logrms5",
+    "hypothesis": "각도 분류의 입력을 제한하면 기록별 진폭 변동과 불필요한 변수를 줄일 수 있는가",
+    "changed": "손동작 legacy/et, 각도 logrms_upper/lda",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.03268431027258373,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "mixed_et_lda_logrms_upper_ratio",
+    "reference": "mixed_et_lda_logrms5",
+    "hypothesis": "각도 분류의 입력을 제한하면 기록별 진폭 변동과 불필요한 변수를 줄일 수 있는가",
+    "changed": "손동작 legacy/et, 각도 logrms_upper_ratio/lda",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.03407467229023503,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "mixed_et_lda_relative_rms5",
+    "reference": "mixed_et_lda_logrms5",
+    "hypothesis": "각도 분류의 입력을 제한하면 기록별 진폭 변동과 불필요한 변수를 줄일 수 있는가",
+    "changed": "손동작 legacy/et, 각도 relative_rms5/lda",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": -0.10847402207127693,
+    "decision": "비교 근거로 보존; 1초 대표에는 미선택"
+  },
+  {
+    "model": "mixed_et_lda_lowref5s",
+    "reference": "mixed_et_lda_logrms5",
+    "hypothesis": "각도 분류의 입력을 제한하면 기록별 진폭 변동과 불필요한 변수를 줄일 수 있는가",
+    "changed": "손동작 legacy/et, 각도 lowref5s/lda",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": 0.05665879908789795,
+    "decision": "추가 문맥의 별도 비교; 1초 대표와 구분"
+  },
+  {
+    "model": "mixed_et_et_lowref5s",
+    "reference": "mixed_et_lda_lowref5s",
+    "hypothesis": "각도 분류의 입력을 제한하면 기록별 진폭 변동과 불필요한 변수를 줄일 수 있는가",
+    "changed": "손동작 legacy/et, 각도 lowref5s/et",
+    "fixed": "고정 1초/기록5겹; 5초 후보만 기준 문맥 추가",
+    "macro_f1_difference": -0.09661349410743869,
+    "decision": "추가 문맥의 별도 비교; 1초 대표와 구분"
+  }
+]

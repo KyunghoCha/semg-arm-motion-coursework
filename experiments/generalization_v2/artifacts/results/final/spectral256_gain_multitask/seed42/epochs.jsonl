@@ -1,0 +1,9 @@
+{"epoch": 1, "timestamp": "2026-10-20T18:54:04.940325+00:00", "train_loss": 2.230698548111261, "train_accuracy": 0.3738562091503268, "gpu_temp_c": 64, "device_memory_mib": 1115, "allocated_mib": 209.71923828125}
+{"epoch": 2, "timestamp": "2026-10-20T18:54:05.030657+00:00", "train_loss": 1.5960480605854708, "train_accuracy": 0.5934640522875817, "gpu_temp_c": 64, "device_memory_mib": 1115, "allocated_mib": 209.71923828125}
+{"epoch": 3, "timestamp": "2026-10-20T18:54:05.121399+00:00", "train_loss": 1.227646160904878, "train_accuracy": 0.7026143790849673, "gpu_temp_c": 64, "device_memory_mib": 1115, "allocated_mib": 209.71923828125}
+{"epoch": 4, "timestamp": "2026-10-20T18:54:05.212436+00:00", "train_loss": 0.952430957438899, "train_accuracy": 0.8176470588235294, "gpu_temp_c": 64, "device_memory_mib": 1115, "allocated_mib": 209.71923828125}
+{"epoch": 5, "timestamp": "2026-10-20T18:54:05.304791+00:00", "train_loss": 0.7808052166614657, "train_accuracy": 0.8901960784313725, "gpu_temp_c": 64, "device_memory_mib": 1115, "allocated_mib": 209.71923828125}
+{"epoch": 6, "timestamp": "2026-10-20T18:54:05.398665+00:00", "train_loss": 0.6489810775308048, "train_accuracy": 0.9320261437908497, "gpu_temp_c": 64, "device_memory_mib": 1115, "allocated_mib": 209.71923828125}
+{"epoch": 7, "timestamp": "2026-10-20T18:54:05.489417+00:00", "train_loss": 0.5959023720298717, "train_accuracy": 0.949673202614379, "gpu_temp_c": 64, "device_memory_mib": 1115, "allocated_mib": 209.71923828125}
+{"epoch": 8, "timestamp": "2026-10-20T18:54:05.580934+00:00", "train_loss": 0.5479389165741166, "train_accuracy": 0.9712418300653595, "gpu_temp_c": 64, "device_memory_mib": 1115, "allocated_mib": 209.71923828125}
+{"epoch": 9, "timestamp": "2026-10-20T18:54:05.672182+00:00", "train_loss": 0.5052885429142348, "train_accuracy": 0.9901960784313726, "gpu_temp_c": 64, "device_memory_mib": 1115, "allocated_mib": 209.71923828125}

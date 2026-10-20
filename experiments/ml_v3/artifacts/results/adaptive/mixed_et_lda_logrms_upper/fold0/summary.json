@@ -1,0 +1,108 @@
+{
+  "accuracy": 0.5636363636363636,
+  "macro_f1": 0.47189575639603154,
+  "macro_precision": 0.5497882743197391,
+  "macro_recall": 0.54375,
+  "gesture_accuracy": 0.7757575757575758,
+  "angle_accuracy": 0.6787878787878788,
+  "confusion_matrix": [
+    [
+      54,
+      2,
+      2,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      21,
+      0,
+      23,
+      5,
+      10,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      9,
+      21,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      22,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      30,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      3,
+      27,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      25,
+      3,
+      1,
+      1
+    ],
+    [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      57
+    ]
+  ],
+  "n": 330,
+  "name": "mixed_et_lda_logrms_upper",
+  "config": {
+    "gesture_feature": "legacy",
+    "angle_feature": "logrms_upper",
+    "gesture_model": "et",
+    "angle_model": "lda",
+    "leaf": 3,
+    "balanced": true,
+    "context": "1s"
+  },
+  "fit_seconds": 0.6727300249040127,
+  "train_accuracy": 0.5575,
+  "timestamp": "2026-10-20T19:15:34.688852+00:00",
+  "gesture_columns": 140,
+  "angle_columns": 2,
+  "svm_margin_surrogate": false,
+  "posthoc_probability_calibration": false
+}

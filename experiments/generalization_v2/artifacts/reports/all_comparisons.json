@@ -1,0 +1,1907 @@
+{
+  "timestamp": "2026-10-20T18:57:23.472200+00:00",
+  "selected": "spectral256_gain_multitask",
+  "development": [
+    {
+      "model": "legacy_svm1",
+      "mean_accuracy": 0.2124242424242424,
+      "sd_accuracy": 0.02380669011079073,
+      "mean_macro_f1": 0.19613780192906674,
+      "epochs": 1,
+      "mean_train_accuracy_at_selected_epoch": null
+    },
+    {
+      "model": "shape_svm1",
+      "mean_accuracy": 0.20915151515151517,
+      "sd_accuracy": 0.018465464252606246,
+      "mean_macro_f1": 0.19401018744370788,
+      "epochs": 1,
+      "mean_train_accuracy_at_selected_epoch": null
+    },
+    {
+      "model": "shape_svm10",
+      "mean_accuracy": 0.2215757575757576,
+      "sd_accuracy": 0.02733612160743128,
+      "mean_macro_f1": 0.2062873752608747,
+      "epochs": 1,
+      "mean_train_accuracy_at_selected_epoch": null
+    },
+    {
+      "model": "env_svm1",
+      "mean_accuracy": 0.12987878787878787,
+      "sd_accuracy": 0.08243805588350103,
+      "mean_macro_f1": 0.13085937739450046,
+      "epochs": 1,
+      "mean_train_accuracy_at_selected_epoch": null
+    },
+    {
+      "model": "env_svm10",
+      "mean_accuracy": 0.1238181818181818,
+      "sd_accuracy": 0.0796372053827568,
+      "mean_macro_f1": 0.12608163501647754,
+      "epochs": 1,
+      "mean_train_accuracy_at_selected_epoch": null
+    },
+    {
+      "model": "rel_svm1",
+      "mean_accuracy": 0.1829090909090909,
+      "sd_accuracy": 0.028273393087096636,
+      "mean_macro_f1": 0.17879736040883915,
+      "epochs": 1,
+      "mean_train_accuracy_at_selected_epoch": null
+    },
+    {
+      "model": "rel_svm10",
+      "mean_accuracy": 0.1827272727272727,
+      "sd_accuracy": 0.028750374293886462,
+      "mean_macro_f1": 0.17976307477450285,
+      "epochs": 1,
+      "mean_train_accuracy_at_selected_epoch": null
+    },
+    {
+      "model": "rel_lda",
+      "mean_accuracy": 0.21000000000000002,
+      "sd_accuracy": 0.05153208277913435,
+      "mean_macro_f1": 0.19183618774037448,
+      "epochs": 1,
+      "mean_train_accuracy_at_selected_epoch": null
+    },
+    {
+      "model": "peak2_svm1",
+      "mean_accuracy": 0.19054545454545455,
+      "sd_accuracy": 0.043216307332619254,
+      "mean_macro_f1": 0.17692784675865253,
+      "epochs": 1,
+      "mean_train_accuracy_at_selected_epoch": null
+    },
+    {
+      "model": "spectral1s",
+      "mean_accuracy": 0.3787878787878788,
+      "sd_accuracy": 0.05461779714453839,
+      "mean_macro_f1": 0.3337647446953668,
+      "epochs": 2,
+      "mean_train_accuracy_at_selected_epoch": 0.7080081300813007
+    },
+    {
+      "model": "spectral2s",
+      "mean_accuracy": 0.3705454545454545,
+      "sd_accuracy": 0.08269435464512964,
+      "mean_macro_f1": 0.341175610038538,
+      "epochs": 9,
+      "mean_train_accuracy_at_selected_epoch": 0.8582113821138211
+    },
+    {
+      "model": "envelope_abs",
+      "mean_accuracy": 0.2936969696969697,
+      "sd_accuracy": 0.1300006004083048,
+      "mean_macro_f1": 0.25653766593924243,
+      "epochs": 5,
+      "mean_train_accuracy_at_selected_epoch": 0.7724308943089431
+    },
+    {
+      "model": "envelope_relative",
+      "mean_accuracy": 0.32484848484848483,
+      "sd_accuracy": 0.1250226793016421,
+      "mean_macro_f1": 0.2988478865100748,
+      "epochs": 5,
+      "mean_train_accuracy_at_selected_epoch": 0.6396056910569106
+    },
+    {
+      "model": "envelope_hybrid",
+      "mean_accuracy": 0.29454545454545455,
+      "sd_accuracy": 0.1114539934403915,
+      "mean_macro_f1": 0.26276762391278635,
+      "epochs": 4,
+      "mean_train_accuracy_at_selected_epoch": 0.7010609756097561
+    },
+    {
+      "model": "envelope_multitask",
+      "mean_accuracy": 0.2923636363636364,
+      "sd_accuracy": 0.11310652235591473,
+      "mean_macro_f1": 0.26206775691575823,
+      "epochs": 15,
+      "mean_train_accuracy_at_selected_epoch": 0.8891747967479674
+    },
+    {
+      "model": "spectral_multitask",
+      "mean_accuracy": 0.46515151515151515,
+      "sd_accuracy": 0.09875162004227257,
+      "mean_macro_f1": 0.4210667796494406,
+      "epochs": 9,
+      "mean_train_accuracy_at_selected_epoch": 0.8611666666666666
+    },
+    {
+      "model": "spectral_weighted",
+      "mean_accuracy": 0.38212121212121214,
+      "sd_accuracy": 0.09079765897881431,
+      "mean_macro_f1": 0.3415461209732539,
+      "epochs": 5,
+      "mean_train_accuracy_at_selected_epoch": 0.7829349593495935
+    },
+    {
+      "model": "spectral128_multitask",
+      "mean_accuracy": 0.4303636363636364,
+      "sd_accuracy": 0.0865888610272389,
+      "mean_macro_f1": 0.391036791280979,
+      "epochs": 7,
+      "mean_train_accuracy_at_selected_epoch": 0.7744878048780488
+    },
+    {
+      "model": "spectral256_multitask",
+      "mean_accuracy": 0.4738181818181818,
+      "sd_accuracy": 0.05993821428504891,
+      "mean_macro_f1": 0.430905355257751,
+      "epochs": 6,
+      "mean_train_accuracy_at_selected_epoch": 0.9003211382113822
+    },
+    {
+      "model": "spectral_gain_multitask",
+      "mean_accuracy": 0.46060606060606063,
+      "sd_accuracy": 0.0753799680126897,
+      "mean_macro_f1": 0.4306864818682712,
+      "epochs": 9,
+      "mean_train_accuracy_at_selected_epoch": 0.9022764227642277
+    },
+    {
+      "model": "spectral256_hierarchical",
+      "mean_accuracy": 0.4427878787878788,
+      "sd_accuracy": 0.039337605408379675,
+      "mean_macro_f1": 0.3974646802068936,
+      "epochs": 8,
+      "mean_train_accuracy_at_selected_epoch": 0.9453780487804877
+    },
+    {
+      "model": "spectral256_hierarchical_rms",
+      "mean_accuracy": 0.45066666666666666,
+      "sd_accuracy": 0.052672995400341954,
+      "mean_macro_f1": 0.416685734159391,
+      "epochs": 3,
+      "mean_train_accuracy_at_selected_epoch": 0.732369918699187
+    },
+    {
+      "model": "spectral256_gain_multitask",
+      "mean_accuracy": 0.48848484848484847,
+      "sd_accuracy": 0.0290916982216201,
+      "mean_macro_f1": 0.4328097377693446,
+      "epochs": 9,
+      "mean_train_accuracy_at_selected_epoch": 0.8213780487804877
+    }
+  ],
+  "nested": {
+    "baseline": {
+      "pooled": {
+        "accuracy": 0.3006535947712418,
+        "macro_f1": 0.296656782064696,
+        "macro_precision": 0.3033257712479662,
+        "macro_recall": 0.30505952380952384,
+        "gesture_accuracy": 0.8908496732026144,
+        "angle_accuracy": 0.3869281045751634,
+        "confusion_matrix": [
+          [
+            72,
+            118,
+            0,
+            13,
+            6,
+            1,
+            0,
+            0
+          ],
+          [
+            125,
+            21,
+            0,
+            25,
+            4,
+            33,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            27,
+            153,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            12,
+            115,
+            52,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            4,
+            0,
+            0,
+            53,
+            120,
+            1,
+            0
+          ],
+          [
+            2,
+            42,
+            2,
+            3,
+            107,
+            52,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8,
+            4,
+            48,
+            120
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            45,
+            135
+          ]
+        ],
+        "n": 1530
+      },
+      "mean_accuracy": 0.3013939393939394,
+      "sd_accuracy": 0.1129298440564062,
+      "mean_macro_f1": 0.2793908780787464,
+      "folds": [
+        {
+          "accuracy": 0.2636363636363636,
+          "macro_f1": 0.22012854421950537,
+          "macro_precision": 0.22388380874851216,
+          "macro_recall": 0.24583333333333332,
+          "gesture_accuracy": 0.8484848484848485,
+          "angle_accuracy": 0.35454545454545455,
+          "confusion_matrix": [
+            [
+              13,
+              31,
+              0,
+              13,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              25,
+              1,
+              0,
+              25,
+              4,
+              3,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              29,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              30,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              25,
+              5,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              26,
+              4,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              29
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              18,
+              42
+            ]
+          ],
+          "n": 330,
+          "best_epoch": 15,
+          "epochs_run": 15,
+          "seconds": 1.5072079559322447,
+          "seed": 8042,
+          "name": "spectral1s",
+          "timestamp": "2026-10-20T18:53:53.094116+00:00",
+          "parameters": 44488,
+          "gpu_temp_c": 60,
+          "device_memory_mib": 1073,
+          "allocated_mib": 164.04248046875
+        },
+        {
+          "accuracy": 0.18666666666666668,
+          "macro_f1": 0.1831596073646089,
+          "macro_precision": 0.2968124008496679,
+          "macro_recall": 0.22708333333333336,
+          "gesture_accuracy": 0.8266666666666667,
+          "angle_accuracy": 0.3566666666666667,
+          "confusion_matrix": [
+            [
+              3,
+              57,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              30,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              22,
+              8,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              12,
+              47,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              30,
+              0,
+              0
+            ],
+            [
+              0,
+              9,
+              0,
+              0,
+              21,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              6,
+              24
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              5,
+              25
+            ]
+          ],
+          "n": 300,
+          "best_epoch": 6,
+          "epochs_run": 6,
+          "seconds": 0.490186327137053,
+          "seed": 8043,
+          "name": "spectral1s",
+          "timestamp": "2026-10-20T18:53:53.673580+00:00",
+          "parameters": 44488,
+          "gpu_temp_c": 61,
+          "device_memory_mib": 1073,
+          "allocated_mib": 164.04345703125
+        },
+        {
+          "accuracy": 0.4533333333333333,
+          "macro_f1": 0.4286400790615281,
+          "macro_precision": 0.43921254399195575,
+          "macro_recall": 0.5145833333333334,
+          "gesture_accuracy": 0.8833333333333333,
+          "angle_accuracy": 0.5566666666666666,
+          "confusion_matrix": [
+            [
+              23,
+              7,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              14,
+              16,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              60,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              30,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              2,
+              26,
+              0,
+              0
+            ],
+            [
+              0,
+              29,
+              2,
+              0,
+              2,
+              25,
+              2,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              17,
+              13
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              7,
+              23
+            ]
+          ],
+          "n": 300,
+          "best_epoch": 3,
+          "epochs_run": 3,
+          "seconds": 0.2399182990193367,
+          "seed": 8044,
+          "name": "spectral1s",
+          "timestamp": "2026-10-20T18:53:54.001822+00:00",
+          "parameters": 44488,
+          "gpu_temp_c": 61,
+          "device_memory_mib": 1073,
+          "allocated_mib": 164.04345703125
+        },
+        {
+          "accuracy": 0.38333333333333336,
+          "macro_f1": 0.3835592877934523,
+          "macro_precision": 0.40671372425790375,
+          "macro_recall": 0.38125,
+          "gesture_accuracy": 0.9366666666666666,
+          "angle_accuracy": 0.42333333333333334,
+          "confusion_matrix": [
+            [
+              7,
+              23,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              26,
+              4,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              29,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              18,
+              12,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              0,
+              0,
+              26,
+              30,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              0,
+              0,
+              35,
+              21,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              8,
+              3,
+              15,
+              4
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              29
+            ]
+          ],
+          "n": 300,
+          "best_epoch": 6,
+          "epochs_run": 6,
+          "seconds": 0.4800945930182934,
+          "seed": 8045,
+          "name": "spectral1s",
+          "timestamp": "2026-10-20T18:53:54.569399+00:00",
+          "parameters": 44488,
+          "gpu_temp_c": 61,
+          "device_memory_mib": 1073,
+          "allocated_mib": 164.22265625
+        },
+        {
+          "accuracy": 0.22,
+          "macro_f1": 0.1814668719546372,
+          "macro_precision": 0.16947669631093545,
+          "macro_recall": 0.25625,
+          "gesture_accuracy": 0.9633333333333334,
+          "angle_accuracy": 0.24666666666666667,
+          "confusion_matrix": [
+            [
+              26,
+              0,
+              0,
+              0,
+              4,
+              0,
+              0,
+              0
+            ],
+            [
+              60,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              3,
+              27,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              20,
+              10,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              29,
+              1,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              3,
+              23,
+              2,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              9,
+              50
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              14,
+              16
+            ]
+          ],
+          "n": 300,
+          "best_epoch": 3,
+          "epochs_run": 3,
+          "seconds": 0.24537873012013733,
+          "seed": 8046,
+          "name": "spectral1s",
+          "timestamp": "2026-10-20T18:53:54.904024+00:00",
+          "parameters": 44488,
+          "gpu_temp_c": 62,
+          "device_memory_mib": 1073,
+          "allocated_mib": 164.22265625
+        }
+      ]
+    },
+    "selected": {
+      "pooled": {
+        "accuracy": 0.2718954248366013,
+        "macro_f1": 0.270460440179895,
+        "macro_precision": 0.26934998605028443,
+        "macro_recall": 0.2759920634920635,
+        "gesture_accuracy": 0.8529411764705882,
+        "angle_accuracy": 0.3764705882352941,
+        "confusion_matrix": [
+          [
+            55,
+            114,
+            15,
+            13,
+            3,
+            9,
+            1,
+            0
+          ],
+          [
+            119,
+            23,
+            4,
+            24,
+            10,
+            28,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            38,
+            140,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            3,
+            11,
+            95,
+            70,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            32,
+            104,
+            39,
+            5
+          ],
+          [
+            1,
+            13,
+            2,
+            5,
+            125,
+            52,
+            12,
+            0
+          ],
+          [
+            0,
+            0,
+            2,
+            0,
+            18,
+            0,
+            65,
+            95
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            97,
+            81
+          ]
+        ],
+        "n": 1530
+      },
+      "mean_accuracy": 0.27436363636363637,
+      "sd_accuracy": 0.1215109195968297,
+      "mean_macro_f1": 0.24971666594108893,
+      "folds": [
+        {
+          "accuracy": 0.1484848484848485,
+          "macro_f1": 0.13158929695311927,
+          "macro_precision": 0.1362482433985493,
+          "macro_recall": 0.13541666666666666,
+          "gesture_accuracy": 0.8303030303030303,
+          "angle_accuracy": 0.23939393939393938,
+          "confusion_matrix": [
+            [
+              8,
+              33,
+              0,
+              13,
+              0,
+              6,
+              0,
+              0
+            ],
+            [
+              23,
+              0,
+              4,
+              24,
+              2,
+              5,
+              1,
+              1
+            ],
+            [
+              0,
+              0,
+              2,
+              28,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              30,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              13,
+              17,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              29,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              30
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              35,
+              25
+            ]
+          ],
+          "n": 330,
+          "best_epoch": 19,
+          "epochs_run": 19,
+          "seconds": 1.849448740016669,
+          "seed": 8042,
+          "name": "spectral_multitask",
+          "timestamp": "2026-10-20T18:53:58.743749+00:00",
+          "parameters": 45262,
+          "gpu_temp_c": 63,
+          "device_memory_mib": 1073,
+          "allocated_mib": 164.060546875
+        },
+        {
+          "accuracy": 0.20666666666666667,
+          "macro_f1": 0.19883543506302115,
+          "macro_precision": 0.2556351515978845,
+          "macro_recall": 0.24166666666666667,
+          "gesture_accuracy": 0.84,
+          "angle_accuracy": 0.32,
+          "confusion_matrix": [
+            [
+              8,
+              52,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              8,
+              22,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              24,
+              4,
+              0,
+              2,
+              0,
+              0
+            ],
+            [
+              3,
+              11,
+              45,
+              0,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              29,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              29,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              5,
+              25
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              6,
+              24
+            ]
+          ],
+          "n": 300,
+          "best_epoch": 6,
+          "epochs_run": 6,
+          "seconds": 0.5740619089920074,
+          "seed": 8043,
+          "name": "spectral_multitask",
+          "timestamp": "2026-10-20T18:53:59.407927+00:00",
+          "parameters": 45262,
+          "gpu_temp_c": 64,
+          "device_memory_mib": 1073,
+          "allocated_mib": 164.24462890625
+        },
+        {
+          "accuracy": 0.47,
+          "macro_f1": 0.4260441174164,
+          "macro_precision": 0.42186835835732894,
+          "macro_recall": 0.50625,
+          "gesture_accuracy": 0.8333333333333334,
+          "angle_accuracy": 0.58,
+          "confusion_matrix": [
+            [
+              7,
+              1,
+              15,
+              0,
+              3,
+              3,
+              1,
+              0
+            ],
+            [
+              8,
+              22,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              4,
+              56,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              29,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              17,
+              12,
+              1,
+              0
+            ],
+            [
+              1,
+              10,
+              2,
+              0,
+              3,
+              35,
+              9,
+              0
+            ],
+            [
+              0,
+              0,
+              2,
+              0,
+              1,
+              0,
+              27,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              2,
+              0,
+              28,
+              0
+            ]
+          ],
+          "n": 300,
+          "best_epoch": 8,
+          "epochs_run": 8,
+          "seconds": 0.7503909631632268,
+          "seed": 8044,
+          "name": "spectral2s",
+          "timestamp": "2026-10-20T18:53:55.852502+00:00",
+          "parameters": 44488,
+          "gpu_temp_c": 63,
+          "device_memory_mib": 1159,
+          "allocated_mib": 268.64306640625
+        },
+        {
+          "accuracy": 0.26,
+          "macro_f1": 0.2879008057227136,
+          "macro_precision": 0.2939787343531777,
+          "macro_recall": 0.28958333333333336,
+          "gesture_accuracy": 0.8266666666666667,
+          "angle_accuracy": 0.42333333333333334,
+          "confusion_matrix": [
+            [
+              2,
+              28,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              28,
+              1,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              8,
+              22,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              19,
+              11,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              1,
+              30,
+              29,
+              0
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              39,
+              16,
+              3,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              17,
+              0,
+              13,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              4,
+              26
+            ]
+          ],
+          "n": 300,
+          "best_epoch": 8,
+          "epochs_run": 8,
+          "seconds": 0.7404210050590336,
+          "seed": 8045,
+          "name": "spectral2s",
+          "timestamp": "2026-10-20T18:53:56.745289+00:00",
+          "parameters": 44488,
+          "gpu_temp_c": 63,
+          "device_memory_mib": 1159,
+          "allocated_mib": 268.64306640625
+        },
+        {
+          "accuracy": 0.2866666666666667,
+          "macro_f1": 0.20421367455019063,
+          "macro_precision": 0.16123466803267028,
+          "macro_recall": 0.31666666666666665,
+          "gesture_accuracy": 0.9366666666666666,
+          "angle_accuracy": 0.3333333333333333,
+          "confusion_matrix": [
+            [
+              30,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              60,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              30,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              30,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              16,
+              9,
+              5
+            ],
+            [
+              0,
+              0,
+              0,
+              5,
+              25,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              20,
+              40
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              24,
+              6
+            ]
+          ],
+          "n": 300,
+          "best_epoch": 3,
+          "epochs_run": 3,
+          "seconds": 0.3456635770853609,
+          "seed": 8046,
+          "name": "spectral_multitask",
+          "timestamp": "2026-10-20T18:53:59.842788+00:00",
+          "parameters": 45262,
+          "gpu_temp_c": 64,
+          "device_memory_mib": 1073,
+          "allocated_mib": 164.24462890625
+        }
+      ]
+    }
+  },
+  "final": {
+    "legacy_svm1": {
+      "accuracy": 0.33076923076923076,
+      "macro_f1": 0.27274433517446417,
+      "macro_precision": 0.2863067772186276,
+      "macro_recall": 0.28125,
+      "gesture_accuracy": 0.9384615384615385,
+      "angle_accuracy": 0.3871794871794872,
+      "confusion_matrix": [
+        [
+          0,
+          24,
+          4,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          28,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          30,
+          30,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          24,
+          36,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          12,
+          47,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          25,
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          12,
+          0,
+          35,
+          13
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          46,
+          10
+        ]
+      ],
+      "n": 390,
+      "errors": 261,
+      "same_gesture_angle_errors": 237
+    },
+    "spectral1s": {
+      "accuracy": 0.5051282051282051,
+      "macro_f1": 0.3972690630705581,
+      "macro_precision": 0.3870112765586904,
+      "macro_recall": 0.45833333333333337,
+      "gesture_accuracy": 0.8974358974358975,
+      "angle_accuracy": 0.5461538461538461,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          19,
+          11,
+          0
+        ],
+        [
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          42,
+          18,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          30,
+          30,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          57,
+          0,
+          0
+        ],
+        [
+          5,
+          2,
+          0,
+          0,
+          0,
+          23,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          59,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          17,
+          43
+        ]
+      ],
+      "n": 390,
+      "errors": 193,
+      "same_gesture_angle_errors": 153
+    },
+    "spectral256_gain_multitask": {
+      "accuracy": 0.4564102564102564,
+      "macro_f1": 0.38335164849869563,
+      "macro_precision": 0.4041722516457684,
+      "macro_recall": 0.39375,
+      "gesture_accuracy": 0.9461538461538461,
+      "angle_accuracy": 0.5051282051282051,
+      "confusion_matrix": [
+        [
+          4,
+          10,
+          1,
+          0,
+          14,
+          1,
+          0,
+          0
+        ],
+        [
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          35,
+          25,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          26,
+          33,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          21,
+          39,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          23,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          3,
+          1,
+          53,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          35,
+          25
+        ]
+      ],
+      "n": 390,
+      "errors": 212,
+      "same_gesture_angle_errors": 191
+    },
+    "spectral_multitask": {
+      "accuracy": 0.45897435897435895,
+      "macro_f1": 0.3831522141659621,
+      "macro_precision": 0.402370449356265,
+      "macro_recall": 0.4,
+      "gesture_accuracy": 0.9307692307692308,
+      "angle_accuracy": 0.5051282051282051,
+      "confusion_matrix": [
+        [
+          0,
+          11,
+          0,
+          0,
+          15,
+          4,
+          0,
+          0
+        ],
+        [
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          20,
+          40,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          19,
+          41,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          14,
+          45,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          16,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          3,
+          55,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          23,
+          36
+        ]
+      ],
+      "n": 390,
+      "errors": 211,
+      "same_gesture_angle_errors": 184
+    }
+  },
+  "classroom": [
+    {
+      "assembly": "window_vote",
+      "model": "SVM",
+      "unit": "window",
+      "cv_mean_accuracy": 0.4854714912280701,
+      "cv_sd_accuracy": 0.0043212397945269826,
+      "cv_macro_f1": 0.48582023590906676,
+      "holdout_accuracy": 0.4998629385964912,
+      "holdout_macro_f1": 0.5003997939821017,
+      "mean_cv_fit_seconds": 29.456340796966106,
+      "holdout_single_input_ms": 1.4547692518681288
+    },
+    {
+      "assembly": "window_vote",
+      "model": "SVM",
+      "unit": "trial",
+      "cv_mean_accuracy": 0.8088541666666668,
+      "cv_sd_accuracy": 0.012968645414571595,
+      "cv_macro_f1": 0.8093432645423654,
+      "holdout_accuracy": 0.8255208333333334,
+      "holdout_macro_f1": 0.8258932101226242,
+      "mean_cv_fit_seconds": 29.456340796966106,
+      "holdout_single_input_ms": 1.4547692518681288
+    },
+    {
+      "assembly": "window_vote",
+      "model": "RF",
+      "unit": "window",
+      "cv_mean_accuracy": 0.6456140350877193,
+      "cv_sd_accuracy": 0.0037805103087849242,
+      "cv_macro_f1": 0.6454446490849474,
+      "holdout_accuracy": 0.6470668859649122,
+      "holdout_macro_f1": 0.6468610140156686,
+      "mean_cv_fit_seconds": 6.688087735511362,
+      "holdout_single_input_ms": 11.71923343790695
+    },
+    {
+      "assembly": "window_vote",
+      "model": "RF",
+      "unit": "trial",
+      "cv_mean_accuracy": 0.9619791666666666,
+      "cv_sd_accuracy": 0.0089456062694363,
+      "cv_macro_f1": 0.961943387769878,
+      "holdout_accuracy": 0.9609375,
+      "holdout_macro_f1": 0.9607974004328134,
+      "mean_cv_fit_seconds": 6.688087735511362,
+      "holdout_single_input_ms": 11.71923343790695
+    },
+    {
+      "assembly": "trial_mean",
+      "model": "SVM",
+      "unit": "trial",
+      "cv_mean_accuracy": 0.8901041666666666,
+      "cv_sd_accuracy": 0.030558761274387412,
+      "cv_macro_f1": 0.8901141718398634,
+      "holdout_accuracy": 0.8854166666666666,
+      "holdout_macro_f1": 0.8847804667042254,
+      "mean_cv_fit_seconds": 0.043824880570173266,
+      "holdout_single_input_ms": 0.2514652698300779
+    },
+    {
+      "assembly": "trial_mean",
+      "model": "RF",
+      "unit": "trial",
+      "cv_mean_accuracy": 0.921875,
+      "cv_sd_accuracy": 0.026493476496583065,
+      "cv_macro_f1": 0.9219134938188344,
+      "holdout_accuracy": 0.9348958333333334,
+      "holdout_macro_f1": 0.9347029961794688,
+      "mean_cv_fit_seconds": 0.2983746265526861,
+      "holdout_single_input_ms": 11.792131159454584
+    }
+  ],
+  "paired_classroom": [
+    {
+      "assembly": "window_vote",
+      "unit": "trial",
+      "n_folds": 5,
+      "rf_minus_svm": 0.15312499999999984,
+      "t": 19.03720290220237,
+      "p_two_sided_unadjusted": 4.4853025885448216e-05,
+      "scope": "descriptive paired folds; overlapping training sets and repeated participants; not confirmatory"
+    },
+    {
+      "assembly": "trial_mean",
+      "unit": "trial",
+      "n_folds": 5,
+      "rf_minus_svm": 0.031770833333333415,
+      "t": 5.2307068468465125,
+      "p_two_sided_unadjusted": 0.006380602998350065,
+      "scope": "descriptive paired folds; overlapping training sets and repeated participants; not confirmatory"
+    }
+  ],
+  "uncertainty": {
+    "selected_minus_baseline": -0.04871794871794872,
+    "unit": "participant clusters",
+    "participants": 6,
+    "records": 13,
+    "bootstrap_seed": 20261021,
+    "draws": 10000,
+    "percentile_95_ci": [
+      -0.17777777777777778,
+      0.09523809523809523
+    ],
+    "scope": "descriptive uncertainty on reused test; few participants and selection history limit inference"
+  },
+  "resources": {
+    "gpu": "NVIDIA TITAN Xp",
+    "vram_mib": 12288,
+    "driver": "580.178.04",
+    "nvidia_smi_cuda_max": "13.0",
+    "torch": "2.6.0+cu118",
+    "torch_cuda_runtime": "11.8",
+    "gpu_completed_fits": 191,
+    "gpu_summed_fit_seconds": 287.49545269063674,
+    "max_temperature_c": 79,
+    "peak_torch_allocated_mib": 269.1748046875,
+    "peak_device_used_mib": 1169,
+    "epochs_logged": 3947,
+    "all_model_fits": 396,
+    "installs": [],
+    "cloud_compute": false
+  },
+  "verification": {
+    "data_cache_hashes": true,
+    "frozen_training_source_hashes": true,
+    "all_development_prediction_indices": true,
+    "all_grouped_splits": true,
+    "classroom_trial_groups": true,
+    "baseline_predictions_exact": true,
+    "baseline_probability_max_abs_error": 0.0,
+    "final_checkpoint_report": "final_checkpoint_verification.json",
+    "choices_locked_before_outer_and_test": true
+  }
+}

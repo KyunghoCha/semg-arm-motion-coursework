@@ -1,0 +1,3 @@
+{"epoch": 1, "timestamp": "2026-10-20T18:53:59.574693+00:00", "train_loss": 2.4652427611312246, "train_accuracy": 0.2845528455284553, "gpu_temp_c": 63, "device_memory_mib": 1073, "allocated_mib": 164.24462890625}
+{"epoch": 2, "timestamp": "2026-10-20T18:53:59.670882+00:00", "train_loss": 1.9112300760377714, "train_accuracy": 0.5560975609756098, "gpu_temp_c": 64, "device_memory_mib": 1073, "allocated_mib": 164.24462890625}
+{"epoch": 3, "timestamp": "2026-10-20T18:53:59.765256+00:00", "train_loss": 1.5144857984248214, "train_accuracy": 0.6430894308943089, "gpu_temp_c": 63, "device_memory_mib": 1073, "allocated_mib": 164.24462890625}

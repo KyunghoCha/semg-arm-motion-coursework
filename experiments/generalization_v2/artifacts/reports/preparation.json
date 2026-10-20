@@ -1,0 +1,84 @@
+{
+  "records": 64,
+  "trials": 1920,
+  "A_dev_records": 51,
+  "A_test_records": 13,
+  "fold_support": [
+    {
+      "fold": 0,
+      "train_recordings_per_class": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        5,
+        4
+      ],
+      "validation_records": 11
+    },
+    {
+      "fold": 1,
+      "train_recordings_per_class": [
+        5,
+        6,
+        5,
+        4,
+        5,
+        6,
+        5,
+        5
+      ],
+      "validation_records": 10
+    },
+    {
+      "fold": 2,
+      "train_recordings_per_class": [
+        6,
+        6,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "validation_records": 10
+    },
+    {
+      "fold": 3,
+      "train_recordings_per_class": [
+        6,
+        6,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5
+      ],
+      "validation_records": 10
+    },
+    {
+      "fold": 4,
+      "train_recordings_per_class": [
+        6,
+        5,
+        5,
+        5,
+        5,
+        6,
+        4,
+        5
+      ],
+      "validation_records": 10
+    }
+  ],
+  "source_hashes_verified": 64,
+  "marker_cycles_disjoint": true,
+  "original_raw1s_input": "old verified 1s array reused without modification",
+  "class_subject_record_confounding": "one recording per participant x class; holding a record removes that participant-class from training",
+  "preparation_code_sha256": "4561fa801865aeff667347de42ff15fb793384055c740221f2c603cae88120ac",
+  "protocol_sha256": "5e025fbb6dc28bee912412cecc3731140fd0e906cd9d274bd4d16d86aee0502e"
+}

@@ -1,0 +1,527 @@
+{
+  "timestamp": "2026-10-20T19:03:00.977528+00:00",
+  "frozen": {
+    "config": {
+      "legacy_svm1": {
+        "feature": "legacy",
+        "model": "svm",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 1
+      },
+      "legacy_et3": {
+        "feature": "legacy",
+        "model": "et",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 3
+      },
+      "legacy_lda": {
+        "feature": "legacy",
+        "model": "lda",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint"
+      },
+      "robust_svm1": {
+        "feature": "robust",
+        "model": "svm",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 1
+      },
+      "robust_et3": {
+        "feature": "robust",
+        "model": "et",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 3
+      },
+      "robust_lda": {
+        "feature": "robust",
+        "model": "lda",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint"
+      },
+      "spectrum_svm1": {
+        "feature": "spectrum",
+        "model": "svm",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 1
+      },
+      "spectrum_et3": {
+        "feature": "spectrum",
+        "model": "et",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 3
+      },
+      "spectrum_lda": {
+        "feature": "spectrum",
+        "model": "lda",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint"
+      },
+      "relations_svm1": {
+        "feature": "relations",
+        "model": "svm",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 1
+      },
+      "relations_et3": {
+        "feature": "relations",
+        "model": "et",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 3
+      },
+      "relations_lda": {
+        "feature": "relations",
+        "model": "lda",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint"
+      },
+      "fusion_svm1": {
+        "feature": "fusion",
+        "model": "svm",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 1
+      },
+      "fusion_et3": {
+        "feature": "fusion",
+        "model": "et",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 3
+      },
+      "fusion_lda": {
+        "feature": "fusion",
+        "model": "lda",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint"
+      },
+      "relative_svm1": {
+        "feature": "relative",
+        "model": "svm",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 1
+      },
+      "relative_et3": {
+        "feature": "relative",
+        "model": "et",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 3
+      },
+      "relative_lda": {
+        "feature": "relative",
+        "model": "lda",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint"
+      },
+      "legacy_svm10": {
+        "feature": "legacy",
+        "model": "svm",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 10
+      },
+      "fusion_rf3": {
+        "feature": "fusion",
+        "model": "rf",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 3
+      },
+      "fusion_hgb31": {
+        "feature": "fusion",
+        "model": "hgb",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaves": 31
+      },
+      "fusion_et3_independent": {
+        "feature": "fusion",
+        "model": "et",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "independent",
+        "leaf": 3
+      },
+      "fusion_et3_hierarchy": {
+        "feature": "fusion",
+        "model": "et",
+        "primary": true,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "hierarchy",
+        "leaf": 3
+      },
+      "legacy_svm0.1": {
+        "feature": "legacy",
+        "model": "svm",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 0.1
+      },
+      "robust_svm0.1": {
+        "feature": "robust",
+        "model": "svm",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 0.1
+      },
+      "robust_svm10": {
+        "feature": "robust",
+        "model": "svm",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 10
+      },
+      "spectrum_svm0.1": {
+        "feature": "spectrum",
+        "model": "svm",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 0.1
+      },
+      "spectrum_svm10": {
+        "feature": "spectrum",
+        "model": "svm",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 10
+      },
+      "relations_svm0.1": {
+        "feature": "relations",
+        "model": "svm",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 0.1
+      },
+      "relations_svm10": {
+        "feature": "relations",
+        "model": "svm",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 10
+      },
+      "fusion_svm0.1": {
+        "feature": "fusion",
+        "model": "svm",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 0.1
+      },
+      "fusion_svm10": {
+        "feature": "fusion",
+        "model": "svm",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 10
+      },
+      "relative_svm0.1": {
+        "feature": "relative",
+        "model": "svm",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 0.1
+      },
+      "relative_svm10": {
+        "feature": "relative",
+        "model": "svm",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 10
+      },
+      "legacy_rf1": {
+        "feature": "legacy",
+        "model": "rf",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 1
+      },
+      "legacy_rf6": {
+        "feature": "legacy",
+        "model": "rf",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 6
+      },
+      "spectrum_rf1": {
+        "feature": "spectrum",
+        "model": "rf",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 1
+      },
+      "spectrum_rf6": {
+        "feature": "spectrum",
+        "model": "rf",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 6
+      },
+      "fusion_rf1": {
+        "feature": "fusion",
+        "model": "rf",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 1
+      },
+      "fusion_rf6": {
+        "feature": "fusion",
+        "model": "rf",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 6
+      },
+      "legacy_et1": {
+        "feature": "legacy",
+        "model": "et",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 1
+      },
+      "legacy_et6": {
+        "feature": "legacy",
+        "model": "et",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 6
+      },
+      "fusion_et1": {
+        "feature": "fusion",
+        "model": "et",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 1
+      },
+      "fusion_et6": {
+        "feature": "fusion",
+        "model": "et",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 6
+      },
+      "fusion_hgb7": {
+        "feature": "fusion",
+        "model": "hgb",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaves": 7
+      },
+      "fusion_robustscale_svm1": {
+        "feature": "fusion",
+        "model": "svm",
+        "primary": false,
+        "normalization": "robust",
+        "selection": null,
+        "structure": "joint",
+        "C": 1
+      },
+      "fusion_pca_svm1": {
+        "feature": "fusion",
+        "model": "svm",
+        "primary": false,
+        "normalization": "standard",
+        "selection": "pca95",
+        "structure": "joint",
+        "C": 1
+      },
+      "fusion_f32_svm1": {
+        "feature": "fusion",
+        "model": "svm",
+        "primary": false,
+        "normalization": "standard",
+        "selection": 32,
+        "structure": "joint",
+        "C": 1
+      },
+      "fusion_f32_et3": {
+        "feature": "fusion",
+        "model": "et",
+        "primary": false,
+        "normalization": "standard",
+        "selection": 32,
+        "structure": "joint",
+        "leaf": 3
+      },
+      "fusion_f64_svm1": {
+        "feature": "fusion",
+        "model": "svm",
+        "primary": false,
+        "normalization": "standard",
+        "selection": 64,
+        "structure": "joint",
+        "C": 1
+      },
+      "fusion_f64_et3": {
+        "feature": "fusion",
+        "model": "et",
+        "primary": false,
+        "normalization": "standard",
+        "selection": 64,
+        "structure": "joint",
+        "leaf": 3
+      },
+      "upper_svm1": {
+        "feature": "upper",
+        "model": "svm",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 1
+      },
+      "upper_et3": {
+        "feature": "upper",
+        "model": "et",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 3
+      },
+      "forearm_svm1": {
+        "feature": "forearm",
+        "model": "svm",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 1
+      },
+      "forearm_et3": {
+        "feature": "forearm",
+        "model": "et",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 3
+      },
+      "legacy_linear1": {
+        "feature": "legacy",
+        "model": "linear",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "C": 1
+      },
+      "fusion_et3_unweighted": {
+        "feature": "fusion",
+        "model": "et",
+        "primary": false,
+        "normalization": "standard",
+        "selection": null,
+        "structure": "joint",
+        "leaf": 3,
+        "balanced": false
+      }
+    },
+    "sources": {
+      "train.py": "3c1863e4a0b2ed783e171a211fb7a8f778aecdda147ec053045098eacfd66d55",
+      "models.py": "46a5091edb75c30d5d025f8ddbd90fe59f1249d5265f835737aa0b85fb8c57e5",
+      "prepare.py": "e9729da6f3f85fcdb216118b50b0f46603c5702668fad7fe63cb686678e6b23d",
+      "PROTOCOL.md": "0d0b54a817903c96f223566b30e84f769ccda54b42e2a05fb01cd619d8615cd3"
+    },
+    "data_manifest_sha256": "4267aad28dfec5a7d198f1a3d95a86b43ad45b7a21d5fe92415a6e7364068112",
+    "environment": {
+      "python": "3.13.9",
+      "sklearn": "1.7.2",
+      "numpy": "2.3.5"
+    }
+  }
+}

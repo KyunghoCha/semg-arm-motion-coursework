@@ -1,0 +1,6 @@
+{"epoch": 1, "timestamp": "2026-10-20T18:53:53.248023+00:00", "train_loss": 1.9335624206356885, "train_accuracy": 0.26178861788617885, "gpu_temp_c": 60, "device_memory_mib": 1073, "allocated_mib": 164.04345703125}
+{"epoch": 2, "timestamp": "2026-10-20T18:53:53.325349+00:00", "train_loss": 1.472866907740027, "train_accuracy": 0.5341463414634147, "gpu_temp_c": 60, "device_memory_mib": 1073, "allocated_mib": 164.04345703125}
+{"epoch": 3, "timestamp": "2026-10-20T18:53:53.404852+00:00", "train_loss": 1.1312516311319862, "train_accuracy": 0.6520325203252032, "gpu_temp_c": 61, "device_memory_mib": 1073, "allocated_mib": 164.04345703125}
+{"epoch": 4, "timestamp": "2026-10-20T18:53:53.485563+00:00", "train_loss": 0.9406206305434064, "train_accuracy": 0.7113821138211383, "gpu_temp_c": 61, "device_memory_mib": 1073, "allocated_mib": 164.04345703125}
+{"epoch": 5, "timestamp": "2026-10-20T18:53:53.567403+00:00", "train_loss": 0.784779639069627, "train_accuracy": 0.8105691056910569, "gpu_temp_c": 61, "device_memory_mib": 1073, "allocated_mib": 164.04345703125}
+{"epoch": 6, "timestamp": "2026-10-20T18:53:53.649974+00:00", "train_loss": 0.6881946144065236, "train_accuracy": 0.8560975609756097, "gpu_temp_c": 61, "device_memory_mib": 1073, "allocated_mib": 164.04345703125}

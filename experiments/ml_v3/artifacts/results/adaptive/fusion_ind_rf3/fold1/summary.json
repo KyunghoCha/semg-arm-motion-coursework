@@ -1,0 +1,108 @@
+{
+  "accuracy": 0.44,
+  "macro_f1": 0.4350695389598821,
+  "macro_precision": 0.4722562955491602,
+  "macro_recall": 0.4604166666666667,
+  "gesture_accuracy": 0.85,
+  "angle_accuracy": 0.54,
+  "confusion_matrix": [
+    [
+      25,
+      35,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      14,
+      0,
+      0,
+      0,
+      0,
+      4,
+      12
+    ],
+    [
+      0,
+      0,
+      12,
+      18,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      13,
+      21,
+      18,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      18,
+      12,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      6,
+      16,
+      3,
+      4
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      27
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      26
+    ]
+  ],
+  "n": 300,
+  "name": "fusion_ind_rf3",
+  "config": {
+    "gesture_feature": "fusion",
+    "angle_feature": "fusion",
+    "gesture_model": "rf",
+    "angle_model": "rf",
+    "leaf": 3,
+    "balanced": true,
+    "context": "1s"
+  },
+  "fit_seconds": 29.17664445308037,
+  "train_accuracy": 0.9991869918699187,
+  "timestamp": "2026-10-20T19:14:02.169695+00:00",
+  "gesture_columns": 395,
+  "angle_columns": 395,
+  "svm_margin_surrogate": false,
+  "posthoc_probability_calibration": false
+}

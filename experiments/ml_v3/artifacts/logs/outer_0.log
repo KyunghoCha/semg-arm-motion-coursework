@@ -1,0 +1,8 @@
+outer results/outer/outer0/legacy_svm1 acc=0.1788 f1=0.1674 seconds=0.05
+outer results/outer/outer1/legacy_svm1 acc=0.2067 f1=0.1511 seconds=0.06
+outer results/outer/outer2/legacy_svm1 acc=0.2400 f1=0.2444 seconds=0.06
+outer results/outer/outer3/legacy_svm1 acc=0.2300 f1=0.2363 seconds=0.06
+outer results/outer/outer4/legacy_svm1 acc=0.2067 f1=0.1816 seconds=0.06
+outer results/outer/outer0/legacy_lda acc=0.4061 f1=0.3420 seconds=0.02
+outer results/outer/outer1/legacy_lda acc=0.2933 f1=0.2446 seconds=0.01
+outer results/outer/outer4/fusion_hgb31 acc=0.1600 f1=0.1471 seconds=6.98

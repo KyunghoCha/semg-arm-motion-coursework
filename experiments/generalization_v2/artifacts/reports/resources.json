@@ -1,0 +1,17 @@
+{
+  "gpu": "NVIDIA TITAN Xp",
+  "vram_mib": 12288,
+  "driver": "580.178.04",
+  "nvidia_smi_cuda_max": "13.0",
+  "torch": "2.6.0+cu118",
+  "torch_cuda_runtime": "11.8",
+  "gpu_completed_fits": 191,
+  "gpu_summed_fit_seconds": 287.49545269063674,
+  "max_temperature_c": 79,
+  "peak_torch_allocated_mib": 269.1748046875,
+  "peak_device_used_mib": 1169,
+  "epochs_logged": 3947,
+  "all_model_fits": 396,
+  "installs": [],
+  "cloud_compute": false
+}

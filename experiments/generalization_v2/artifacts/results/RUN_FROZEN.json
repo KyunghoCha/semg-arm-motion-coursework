@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-10-20T18:42:47.634405+00:00",
+  "frozen": {
+    "source_hashes": {
+      "common.py": "5922c26305ebc91e5d6c3e5dfeb2160767673c44ee84454b7522b7d01104b1ec",
+      "cpu.py": "0fa293dde2b323e0e950f4a4e2c4b5e068bb5cfd16a02efaacee4ae70dcce24a",
+      "gpu.py": "8350048c09b55e672bb85a3e684caffa9d041f0a3b2b5bf6fb33b028ef7a9db4",
+      "prepare.py": "4561fa801865aeff667347de42ff15fb793384055c740221f2c603cae88120ac"
+    },
+    "protocol_sha256": "5e025fbb6dc28bee912412cecc3731140fd0e906cd9d274bd4d16d86aee0502e",
+    "data_hashes": {
+      "envelope_relative.npy": "db823e7e51dd3ab8d9bf2bc752d1399247d241d7c180ffef1221f17dbab6d6a6",
+      "envelope_hybrid.npy": "ca63352475d9a24f2e5c20a4a19b828470bc687f67a88f19f4be60703393de37",
+      "cpu_shape.npy": "74f42d7ea4b79e2e662ffa8e38445883e8f017e013df1ad4028dc62d6a51c131",
+      "cpu_peak2.npy": "a9d04a1d6d8eb6126228f498361076f99a6d7d6cc64ddc7613afd445846715e7",
+      "spectral1s.npy": "53b665824983e96817499d3c11eea5e2cf5444483b29334d9aa4b5a61d32d1d3",
+      "envelope_abs.npy": "25539728ab242aeaa7797985883956cdbe772022e79e601d2f7f0ddba034b4a3",
+      "cpu_env.npy": "d364d7945db53f876e645148bb36340a8c8e71ac2371ccdb06542b120789ebc7",
+      "splits.npz": "4073a13b1d2354185103611687f21fdaea5d537f46e7538ac07a6b73ee38dc43",
+      "cpu_rel.npy": "4817ef22ba07f3543de518fe25de3ecd7adc544ae0cf77ae0a47dbd2a2f0c801",
+      "cpu_legacy.npy": "c4797d1802215856d887d4e35696ac252371c3a85e598fb3cef016a94e4053ca",
+      "lecture25.npy": "ebaf33e64686e467c2314064ed36c752549d40dcf2cc3b0014092a2ba5695926",
+      "spectral2s.npy": "e87d297d2d9316d37b500141510e329ab1aeed630c3fc33e3f1650924d8ec459"
+    },
+    "cpu_candidates": {
+      "legacy_svm1": [
+        "legacy",
+        1
+      ],
+      "shape_svm1": [
+        "shape",
+        1
+      ],
+      "shape_svm10": [
+        "shape",
+        10
+      ],
+      "env_svm1": [
+        "env",
+        1
+      ],
+      "env_svm10": [
+        "env",
+        10
+      ],
+      "rel_svm1": [
+        "rel",
+        1
+      ],
+      "rel_svm10": [
+        "rel",
+        10
+      ],
+      "rel_lda": [
+        "rel",
+        null
+      ],
+      "peak2_svm1": [
+        "peak2",
+        1
+      ]
+    },
+    "gpu_candidates": {
+      "spectral1s": "spectral1s",
+      "spectral2s": "spectral2s",
+      "envelope_abs": "envelope_abs",
+      "envelope_relative": "envelope_relative",
+      "envelope_hybrid": "envelope_hybrid",
+      "envelope_multitask": "envelope_hybrid",
+      "spectral_multitask": "spectral1s"
+    }
+  }
+}

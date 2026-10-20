@@ -1,0 +1,108 @@
+{
+  "accuracy": 0.29,
+  "macro_f1": 0.2853336265509874,
+  "macro_precision": 0.29340553568814437,
+  "macro_recall": 0.2895833333333333,
+  "gesture_accuracy": 0.94,
+  "angle_accuracy": 0.32666666666666666,
+  "confusion_matrix": [
+    [
+      0,
+      30,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      18,
+      12,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      6,
+      0,
+      24,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      29,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      26,
+      33,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      51,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      11,
+      0,
+      16,
+      3
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      23
+    ]
+  ],
+  "n": 300,
+  "name": "relations_ind_et3",
+  "config": {
+    "gesture_feature": "relations",
+    "angle_feature": "relations",
+    "gesture_model": "et",
+    "angle_model": "et",
+    "leaf": 3,
+    "balanced": true,
+    "context": "1s"
+  },
+  "fit_seconds": 1.7751009669154882,
+  "train_accuracy": 1.0,
+  "timestamp": "2026-10-20T19:12:42.701750+00:00",
+  "gesture_columns": 150,
+  "angle_columns": 150,
+  "svm_margin_surrogate": false,
+  "posthoc_probability_calibration": false
+}

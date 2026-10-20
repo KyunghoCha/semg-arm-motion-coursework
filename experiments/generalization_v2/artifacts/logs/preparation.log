@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<WORKSPACE>/semg-arm-motion-coursework/experiments/generalization_v2/prepare.py", line 134, in <module>
+    main()
+    ~~~~^^
+  File "<WORKSPACE>/semg-arm-motion-coursework/experiments/generalization_v2/prepare.py", line 62, in main
+    assert mark+5000 <= end
+           ^^^^^^^^^^^^^^^^
+AssertionError

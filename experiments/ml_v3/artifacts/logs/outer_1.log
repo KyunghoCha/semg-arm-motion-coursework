@@ -1,0 +1,7 @@
+outer results/outer/outer0/robust_lda acc=0.4303 f1=0.3762 seconds=0.04
+outer results/outer/outer1/robust_lda acc=0.2700 f1=0.2204 seconds=0.03
+outer results/outer/outer2/robust_lda acc=0.4267 f1=0.4048 seconds=0.03
+outer results/outer/outer3/robust_lda acc=0.3700 f1=0.3986 seconds=0.03
+outer results/outer/outer2/fusion_et3_independent acc=0.6000 f1=0.6050 seconds=3.55
+outer results/outer/outer3/fusion_et3_independent acc=0.4433 f1=0.5023 seconds=3.70
+outer results/outer/outer4/fusion_et3_independent acc=0.3067 f1=0.2789 seconds=3.42

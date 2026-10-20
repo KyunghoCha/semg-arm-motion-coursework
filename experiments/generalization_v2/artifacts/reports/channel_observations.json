@@ -1,0 +1,135 @@
+{
+  "scope": "A development only; record median of30energy-selected1s trial RMS values",
+  "pairs": 21,
+  "ch4_up_ch5_down": 4,
+  "both_up": 16,
+  "ch4_down_ch5_up": 1,
+  "ratios": [
+    {
+      "subject": "a",
+      "gesture": 0,
+      "ch4_ratio": 1.62012283633847,
+      "ch5_ratio": 1.2924634891686488
+    },
+    {
+      "subject": "b",
+      "gesture": 0,
+      "ch4_ratio": 1.0130457079863473,
+      "ch5_ratio": 1.120151790943363
+    },
+    {
+      "subject": "c",
+      "gesture": 0,
+      "ch4_ratio": 1.0318898845612035,
+      "ch5_ratio": 1.0747799568070284
+    },
+    {
+      "subject": "d",
+      "gesture": 0,
+      "ch4_ratio": 1.3693183597224088,
+      "ch5_ratio": 0.9197398181472347
+    },
+    {
+      "subject": "e",
+      "gesture": 0,
+      "ch4_ratio": 1.3589399892092944,
+      "ch5_ratio": 1.2360803437544787
+    },
+    {
+      "subject": "f",
+      "gesture": 0,
+      "ch4_ratio": 1.3753111680589787,
+      "ch5_ratio": 1.213660830781004
+    },
+    {
+      "subject": "a",
+      "gesture": 1,
+      "ch4_ratio": 1.369904881723488,
+      "ch5_ratio": 0.7919699792099741
+    },
+    {
+      "subject": "c",
+      "gesture": 1,
+      "ch4_ratio": 1.290916802714245,
+      "ch5_ratio": 1.174788050673481
+    },
+    {
+      "subject": "f",
+      "gesture": 1,
+      "ch4_ratio": 1.4647406658270696,
+      "ch5_ratio": 1.581715506874684
+    },
+    {
+      "subject": "g",
+      "gesture": 1,
+      "ch4_ratio": 0.9629947294654364,
+      "ch5_ratio": 1.1517732771333926
+    },
+    {
+      "subject": "h",
+      "gesture": 1,
+      "ch4_ratio": 1.0720636227163083,
+      "ch5_ratio": 0.8273109627368808
+    },
+    {
+      "subject": "a",
+      "gesture": 2,
+      "ch4_ratio": 1.0793783755636162,
+      "ch5_ratio": 1.1503618971337428
+    },
+    {
+      "subject": "c",
+      "gesture": 2,
+      "ch4_ratio": 1.1275476703715306,
+      "ch5_ratio": 1.0671509040750273
+    },
+    {
+      "subject": "e",
+      "gesture": 2,
+      "ch4_ratio": 1.1706066643927964,
+      "ch5_ratio": 1.365816446682014
+    },
+    {
+      "subject": "f",
+      "gesture": 2,
+      "ch4_ratio": 1.3280373710354818,
+      "ch5_ratio": 1.371344292054411
+    },
+    {
+      "subject": "g",
+      "gesture": 2,
+      "ch4_ratio": 1.0103834350687764,
+      "ch5_ratio": 0.8928533097181328
+    },
+    {
+      "subject": "c",
+      "gesture": 3,
+      "ch4_ratio": 2.1792447489073874,
+      "ch5_ratio": 1.4535358476370677
+    },
+    {
+      "subject": "d",
+      "gesture": 3,
+      "ch4_ratio": 1.3798092117873932,
+      "ch5_ratio": 1.4817200113518347
+    },
+    {
+      "subject": "e",
+      "gesture": 3,
+      "ch4_ratio": 1.7995144289360283,
+      "ch5_ratio": 1.4690779229753634
+    },
+    {
+      "subject": "f",
+      "gesture": 3,
+      "ch4_ratio": 1.9427957997999992,
+      "ch5_ratio": 1.3234402016780444
+    },
+    {
+      "subject": "h",
+      "gesture": 3,
+      "ch4_ratio": 1.1953614385138558,
+      "ch5_ratio": 1.06778736835202
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-10-20T18:49:15.919188+00:00",
+  "source_sha256": "61c28782201e6d6a7959a985f62eff2b6a318ad367cba707eddd77ce58eea5cf",
+  "amendment_sha256": "9cda41d5f2662d9bd585a1043c4cea7bdac18bc42648394700df5a75db1e189d",
+  "candidates": {
+    "spectral_weighted": "spectral1s",
+    "spectral128_multitask": "spectral128",
+    "spectral256_multitask": "spectral256",
+    "spectral_gain_multitask": "spectral1s"
+  },
+  "inputs": {
+    "spectral128": "a4e062fbe76fbbf8dc4554868d7238fbd7e442812e31afe9c69e1934fb1d69bd",
+    "spectral256": "981af0a58e0f7a0a8bb5b6bd1a8eecdb5a466b3201191642b0768c33a379282f",
+    "spectral1s": "53b665824983e96817499d3c11eea5e2cf5444483b29334d9aa4b5a61d32d1d3"
+  }
+}

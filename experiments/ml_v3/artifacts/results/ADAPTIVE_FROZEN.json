@@ -1,0 +1,208 @@
+{
+  "timestamp": "2026-10-20T19:11:54.347695+00:00",
+  "candidates": {
+    "legacy_ind_et3": {
+      "gesture_feature": "legacy",
+      "angle_feature": "legacy",
+      "gesture_model": "et",
+      "angle_model": "et",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "robust_ind_et3": {
+      "gesture_feature": "robust",
+      "angle_feature": "robust",
+      "gesture_model": "et",
+      "angle_model": "et",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "spectrum_ind_et3": {
+      "gesture_feature": "spectrum",
+      "angle_feature": "spectrum",
+      "gesture_model": "et",
+      "angle_model": "et",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "relations_ind_et3": {
+      "gesture_feature": "relations",
+      "angle_feature": "relations",
+      "gesture_model": "et",
+      "angle_model": "et",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "relative_ind_et3": {
+      "gesture_feature": "relative",
+      "angle_feature": "relative",
+      "gesture_model": "et",
+      "angle_model": "et",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "legacy_ind_lda": {
+      "gesture_feature": "legacy",
+      "angle_feature": "legacy",
+      "gesture_model": "lda",
+      "angle_model": "lda",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "robust_ind_lda": {
+      "gesture_feature": "robust",
+      "angle_feature": "robust",
+      "gesture_model": "lda",
+      "angle_model": "lda",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "spectrum_ind_lda": {
+      "gesture_feature": "spectrum",
+      "angle_feature": "spectrum",
+      "gesture_model": "lda",
+      "angle_model": "lda",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "relations_ind_lda": {
+      "gesture_feature": "relations",
+      "angle_feature": "relations",
+      "gesture_model": "lda",
+      "angle_model": "lda",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "fusion_ind_lda": {
+      "gesture_feature": "fusion",
+      "angle_feature": "fusion",
+      "gesture_model": "lda",
+      "angle_model": "lda",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "relative_ind_lda": {
+      "gesture_feature": "relative",
+      "angle_feature": "relative",
+      "gesture_model": "lda",
+      "angle_model": "lda",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "legacy_ind_svm1": {
+      "gesture_feature": "legacy",
+      "angle_feature": "legacy",
+      "gesture_model": "svm",
+      "angle_model": "svm",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "fusion_ind_svm1": {
+      "gesture_feature": "fusion",
+      "angle_feature": "fusion",
+      "gesture_model": "svm",
+      "angle_model": "svm",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "fusion_ind_et6": {
+      "gesture_feature": "fusion",
+      "angle_feature": "fusion",
+      "gesture_model": "et",
+      "angle_model": "et",
+      "leaf": 6,
+      "balanced": true,
+      "context": "1s"
+    },
+    "fusion_ind_et3_unweighted": {
+      "gesture_feature": "fusion",
+      "angle_feature": "fusion",
+      "gesture_model": "et",
+      "angle_model": "et",
+      "leaf": 3,
+      "balanced": false,
+      "context": "1s"
+    },
+    "fusion_ind_rf3": {
+      "gesture_feature": "fusion",
+      "angle_feature": "fusion",
+      "gesture_model": "rf",
+      "angle_model": "rf",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "mixed_et_lda_logrms5": {
+      "gesture_feature": "legacy",
+      "angle_feature": "logrms5",
+      "gesture_model": "et",
+      "angle_model": "lda",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "mixed_et_lda_logrms_upper": {
+      "gesture_feature": "legacy",
+      "angle_feature": "logrms_upper",
+      "gesture_model": "et",
+      "angle_model": "lda",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "mixed_et_lda_logrms_upper_ratio": {
+      "gesture_feature": "legacy",
+      "angle_feature": "logrms_upper_ratio",
+      "gesture_model": "et",
+      "angle_model": "lda",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "mixed_et_lda_relative_rms5": {
+      "gesture_feature": "legacy",
+      "angle_feature": "relative_rms5",
+      "gesture_model": "et",
+      "angle_model": "lda",
+      "leaf": 3,
+      "balanced": true,
+      "context": "1s"
+    },
+    "mixed_et_lda_lowref5s": {
+      "gesture_feature": "legacy",
+      "angle_feature": "lowref5s",
+      "gesture_model": "et",
+      "angle_model": "lda",
+      "leaf": 3,
+      "balanced": true,
+      "context": "5s"
+    },
+    "mixed_et_et_lowref5s": {
+      "gesture_feature": "legacy",
+      "angle_feature": "lowref5s",
+      "gesture_model": "et",
+      "angle_model": "et",
+      "leaf": 3,
+      "balanced": true,
+      "context": "5s"
+    }
+  },
+  "source_sha256": "24947f8c380b0f220611b04ffec1a79ab67f54cfbe8a23dbd9b84a84fc3ac061",
+  "plan_sha256": "991b071310287836bc883b875160022d7f1ad4748c3a3425584d6758367cd4a9",
+  "features_sha256": "ba3c4252c7dba5e0fbdb2dd3d5c1cf7371117060a4acb432cfd10c6308510016",
+  "base_freeze_sha256": "5b45f83faa99b9a9c3b6086d369943fd1e75855e677a904c36797030127d043f",
+  "source_env_sha256": "25539728ab242aeaa7797985883956cdbe772022e79e601d2f7f0ddba034b4a3"
+}

@@ -1,0 +1,13 @@
+{
+  "cached_features_sha256_verified": true,
+  "development_only": true,
+  "trace_normalized_covariance_gain_invariant": true,
+  "channel_correlation_positive_gain_invariant": true,
+  "legacy_svm_prediction_replay_exact_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+}

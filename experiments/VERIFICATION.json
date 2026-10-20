@@ -1,0 +1,18 @@
+{
+  "time_utc": "2026-10-20T19:30:46.662457+00:00",
+  "historical_result_files_unchanged": 2850,
+  "source_files_parsed_python313": 18,
+  "relative_links_checked": 110,
+  "all_local_link_targets_exist": true,
+  "npz_prediction_or_split_files_checked": 1233,
+  "raw_feature_or_model_files_in_review_copy": [],
+  "secret_pattern_matches": [],
+  "original_published_files_unchanged": true,
+  "all_13_plotted_figures_visually_reviewed": true,
+  "ML_candidates": 79,
+  "ML_completed_top_level_fits": 827,
+  "ML_test_evaluations": 0,
+  "new_installs": [],
+  "remote_changes": false,
+  "interpretation": "79-candidate development selection, fixed23-family nested selection, and post-selection resplit/person-exclusion diagnostics are distinct."
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "name": "spectral1s",
+    "accuracy": 0.3787878787878788,
+    "macro_f1": 0.3337647446953668,
+    "accuracy_sd": 0.05461779714453839,
+    "epochs": 2
+  },
+  {
+    "name": "spectral2s",
+    "accuracy": 0.3705454545454545,
+    "macro_f1": 0.341175610038538,
+    "accuracy_sd": 0.08269435464512964,
+    "epochs": 9
+  },
+  {
+    "name": "envelope_abs",
+    "accuracy": 0.2936969696969697,
+    "macro_f1": 0.25653766593924243,
+    "accuracy_sd": 0.1300006004083048,
+    "epochs": 5
+  },
+  {
+    "name": "envelope_relative",
+    "accuracy": 0.32484848484848483,
+    "macro_f1": 0.2988478865100748,
+    "accuracy_sd": 0.1250226793016421,
+    "epochs": 5
+  },
+  {
+    "name": "envelope_hybrid",
+    "accuracy": 0.29454545454545455,
+    "macro_f1": 0.26276762391278635,
+    "accuracy_sd": 0.1114539934403915,
+    "epochs": 4
+  },
+  {
+    "name": "envelope_multitask",
+    "accuracy": 0.2923636363636364,
+    "macro_f1": 0.26206775691575823,
+    "accuracy_sd": 0.11310652235591473,
+    "epochs": 15
+  },
+  {
+    "name": "spectral_multitask",
+    "accuracy": 0.46515151515151515,
+    "macro_f1": 0.4210667796494406,
+    "accuracy_sd": 0.09875162004227257,
+    "epochs": 9
+  }
+]

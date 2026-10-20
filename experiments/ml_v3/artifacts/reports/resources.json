@@ -1,0 +1,16 @@
+{
+  "completed_fit_calls": 827,
+  "summed_fit_seconds": 1250.6518010427244,
+  "screen_fits": 285,
+  "inner_fits": 345,
+  "adaptive_fits": 110,
+  "outer_fits": 15,
+  "diagnostic_fits": 72,
+  "failures": 0,
+  "first_completed_at": "2026-10-20T19:03:34.109841+00:00",
+  "last_completed_at": "2026-10-20T19:17:36.351351+00:00",
+  "execution": "user PC CPU, at most two jobs x two threads",
+  "new_installs": [],
+  "A_B_test_evaluations": 0,
+  "GPU_training_in_this_ML_stage": false
+}

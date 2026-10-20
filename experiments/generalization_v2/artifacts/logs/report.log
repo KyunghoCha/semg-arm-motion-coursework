@@ -1,0 +1,52 @@
+<USER_HOME>/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/matplotlib-iurvjgae because there was an issue with the default path (<USER_HOME>/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+{
+  "nested": {
+    "baseline": {
+      "mean_accuracy": 0.3013939393939394,
+      "sd_accuracy": 0.1129298440564062,
+      "mean_macro_f1": 0.2793908780787464
+    },
+    "selected": {
+      "mean_accuracy": 0.27436363636363637,
+      "sd_accuracy": 0.1215109195968297,
+      "mean_macro_f1": 0.24971666594108893
+    }
+  },
+  "final": {
+    "legacy_svm1": 0.33076923076923076,
+    "spectral1s": 0.5051282051282051,
+    "spectral256_gain_multitask": 0.4564102564102564,
+    "spectral_multitask": 0.45897435897435895
+  },
+  "resources": {
+    "gpu": "NVIDIA TITAN Xp",
+    "vram_mib": 12288,
+    "driver": "580.178.04",
+    "nvidia_smi_cuda_max": "13.0",
+    "torch": "2.6.0+cu118",
+    "torch_cuda_runtime": "11.8",
+    "gpu_completed_fits": 191,
+    "gpu_summed_fit_seconds": 287.49545269063674,
+    "max_temperature_c": 79,
+    "peak_torch_allocated_mib": 269.1748046875,
+    "peak_device_used_mib": 1169,
+    "epochs_logged": 3947,
+    "all_model_fits": 396,
+    "installs": [],
+    "cloud_compute": false
+  },
+  "uncertainty": {
+    "selected_minus_baseline": -0.04871794871794872,
+    "unit": "participant clusters",
+    "participants": 6,
+    "records": 13,
+    "bootstrap_seed": 20261021,
+    "draws": 10000,
+    "percentile_95_ci": [
+      -0.17777777777777778,
+      0.09523809523809523
+    ],
+    "scope": "descriptive uncertainty on reused test; few participants and selection history limit inference"
+  }
+}

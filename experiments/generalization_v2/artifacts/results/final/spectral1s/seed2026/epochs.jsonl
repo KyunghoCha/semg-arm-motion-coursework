@@ -1,0 +1,2 @@
+{"epoch": 1, "timestamp": "2026-10-20T18:54:04.501360+00:00", "train_loss": 1.8600215205959245, "train_accuracy": 0.3405228758169935, "gpu_temp_c": 64, "device_memory_mib": 1065, "allocated_mib": 164.04736328125}
+{"epoch": 2, "timestamp": "2026-10-20T18:54:04.592280+00:00", "train_loss": 1.4106789350509643, "train_accuracy": 0.5326797385620915, "gpu_temp_c": 64, "device_memory_mib": 1065, "allocated_mib": 164.04736328125}

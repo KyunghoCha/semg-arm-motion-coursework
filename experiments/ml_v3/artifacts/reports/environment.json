@@ -1,0 +1,9 @@
+{
+  "python": "3.13.9",
+  "numpy": "2.3.5",
+  "scipy": "1.16.3",
+  "sklearn": "1.7.2",
+  "matplotlib": "3.10.6",
+  "new_installs": [],
+  "gpu_used_in_ml_stage": false
+}

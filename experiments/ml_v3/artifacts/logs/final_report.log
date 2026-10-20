@@ -1,0 +1,87 @@
+{
+  "best": "fusion_ind_lda",
+  "development_accuracy": 0.5465454545454544,
+  "nested": {
+    "baseline": 0.2124242424242424,
+    "single": 0.4052121212121212,
+    "ensemble": 0.3335757575757576
+  },
+  "diagnostics": [
+    {
+      "model": "fusion_et3_independent",
+      "diagnostic": "record_seed20261022",
+      "mean_accuracy": 0.4009090909090909
+    },
+    {
+      "model": "fusion_et3_independent",
+      "diagnostic": "record_seed20261023",
+      "mean_accuracy": 0.41775757575757577
+    },
+    {
+      "model": "fusion_et3_independent",
+      "diagnostic": "subject",
+      "mean_accuracy": 0.5694146825396826
+    },
+    {
+      "model": "fusion_ind_lda",
+      "diagnostic": "record_seed20261022",
+      "mean_accuracy": 0.4952727272727273
+    },
+    {
+      "model": "fusion_ind_lda",
+      "diagnostic": "record_seed20261023",
+      "mean_accuracy": 0.5340606060606061
+    },
+    {
+      "model": "fusion_ind_lda",
+      "diagnostic": "subject",
+      "mean_accuracy": 0.5525049603174603
+    },
+    {
+      "model": "legacy_svm1",
+      "diagnostic": "record_seed20261022",
+      "mean_accuracy": 0.18618181818181817
+    },
+    {
+      "model": "legacy_svm1",
+      "diagnostic": "record_seed20261023",
+      "mean_accuracy": 0.23248484848484852
+    },
+    {
+      "model": "legacy_svm1",
+      "diagnostic": "subject",
+      "mean_accuracy": 0.4885515873015873
+    },
+    {
+      "model": "mixed_et_lda_lowref5s",
+      "diagnostic": "record_seed20261022",
+      "mean_accuracy": 0.44187878787878787
+    },
+    {
+      "model": "mixed_et_lda_lowref5s",
+      "diagnostic": "record_seed20261023",
+      "mean_accuracy": 0.4419393939393939
+    },
+    {
+      "model": "mixed_et_lda_lowref5s",
+      "diagnostic": "subject",
+      "mean_accuracy": 0.5082638888888888
+    }
+  ],
+  "resources": {
+    "completed_fit_calls": 827,
+    "summed_fit_seconds": 1250.6518010427244,
+    "screen_fits": 285,
+    "inner_fits": 345,
+    "adaptive_fits": 110,
+    "outer_fits": 15,
+    "diagnostic_fits": 72,
+    "failures": 0,
+    "first_completed_at": "2026-10-20T19:03:34.109841+00:00",
+    "last_completed_at": "2026-10-20T19:17:36.351351+00:00",
+    "execution": "user PC CPU, at most two jobs x two threads",
+    "new_installs": [],
+    "A_B_test_evaluations": 0,
+    "GPU_training_in_this_ML_stage": false
+  }
+}

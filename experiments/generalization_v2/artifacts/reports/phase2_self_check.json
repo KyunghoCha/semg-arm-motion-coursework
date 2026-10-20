@@ -1,0 +1,26 @@
+{
+  "spectral_weighted": {
+    "inference_deterministic": true,
+    "checkpoint_replay_exact": true,
+    "toy_accuracy": 1.0,
+    "parameters": 44488
+  },
+  "spectral128_multitask": {
+    "inference_deterministic": true,
+    "checkpoint_replay_exact": true,
+    "toy_accuracy": 1.0,
+    "parameters": 55502
+  },
+  "spectral256_multitask": {
+    "inference_deterministic": true,
+    "checkpoint_replay_exact": true,
+    "toy_accuracy": 1.0,
+    "parameters": 75982
+  },
+  "spectral_gain_multitask": {
+    "inference_deterministic": true,
+    "checkpoint_replay_exact": true,
+    "toy_accuracy": 1.0,
+    "parameters": 45262
+  }
+}
