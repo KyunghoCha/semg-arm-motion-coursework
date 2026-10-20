@@ -1,0 +1,58 @@
+[
+  {
+    "protocol": "recording",
+    "candidate": "spectral200",
+    "seed": 42,
+    "normalization_uses_development_only": true,
+    "max_probability_replay_error": 0.0
+  },
+  {
+    "protocol": "recording",
+    "candidate": "spectral200",
+    "seed": 2026,
+    "normalization_uses_development_only": true,
+    "max_probability_replay_error": 0.0
+  },
+  {
+    "protocol": "recording",
+    "candidate": "spectral1000",
+    "seed": 42,
+    "normalization_uses_development_only": true,
+    "max_probability_replay_error": 0.0
+  },
+  {
+    "protocol": "recording",
+    "candidate": "spectral1000",
+    "seed": 2026,
+    "normalization_uses_development_only": true,
+    "max_probability_replay_error": 0.0
+  },
+  {
+    "protocol": "trial",
+    "candidate": "spectral200",
+    "seed": 42,
+    "normalization_uses_development_only": true,
+    "max_probability_replay_error": 0.0
+  },
+  {
+    "protocol": "trial",
+    "candidate": "spectral200",
+    "seed": 2026,
+    "normalization_uses_development_only": true,
+    "max_probability_replay_error": 0.0
+  },
+  {
+    "protocol": "trial",
+    "candidate": "spectral1000",
+    "seed": 42,
+    "normalization_uses_development_only": true,
+    "max_probability_replay_error": 0.0
+  },
+  {
+    "protocol": "trial",
+    "candidate": "spectral1000",
+    "seed": 2026,
+    "normalization_uses_development_only": true,
+    "max_probability_replay_error": 0.0
+  }
+]

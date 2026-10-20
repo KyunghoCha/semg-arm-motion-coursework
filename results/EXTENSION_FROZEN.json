@@ -1,0 +1,38 @@
+{
+  "config": {
+    "candidates": [
+      "raw200",
+      "spectral200",
+      "raw1000",
+      "spectral1000"
+    ],
+    "protocols": [
+      "recording",
+      "trial"
+    ],
+    "batch_size": 128,
+    "lr": 0.001,
+    "weight_decay": 0.001,
+    "dropout": 0.25,
+    "label_smoothing": 0.05,
+    "grad_clip": 5.0,
+    "max_epochs": 40,
+    "min_epochs": 8,
+    "patience": 8,
+    "cv_seed": 42,
+    "final_seeds": [
+      42,
+      2026
+    ],
+    "max_wall_seconds": 5400
+  },
+  "extra_candidates": [
+    "spectral_relative200",
+    "spectral_aug200",
+    "spectral_relative1000",
+    "spectral_aug1000"
+  ],
+  "extension_code_sha256": "4c7a281f793aecc1005c186d718b1f8955e31cbd29cdd3b12dd9f6285c1edae5",
+  "base_code_sha256": "5e5219c690da795985fb24fabf54932505d26471deacd70583902d0428fa9e11",
+  "extension_protocol_sha256": "5bcd6d153f89eae6d2837756404519088d63dbd541d794c9faf62fa3263f1f84"
+}

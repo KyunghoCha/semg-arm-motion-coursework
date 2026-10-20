@@ -1,0 +1,5 @@
+{
+  "inference_augmentation_disabled": true,
+  "training_augmentation_enabled": true,
+  "relative_common_gain_invariance": true
+}

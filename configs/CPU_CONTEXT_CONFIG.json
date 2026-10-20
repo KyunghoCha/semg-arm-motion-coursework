@@ -1,0 +1,28 @@
+{
+  "options": {
+    "mean_c01": [
+      "mean",
+      0.1
+    ],
+    "mean_c1": [
+      "mean",
+      1.0
+    ],
+    "mean_c10": [
+      "mean",
+      10.0
+    ],
+    "moments_c1": [
+      "moments",
+      1.0
+    ],
+    "moments_c10": [
+      "moments",
+      10.0
+    ]
+  },
+  "code_sha256": "fae63ad2065d528fb312781f203a02c9c3021a7119ffc3b4eece5d886d6acd4b",
+  "sklearn": "1.7.2",
+  "numpy": "2.3.5",
+  "scipy": "1.16.3"
+}

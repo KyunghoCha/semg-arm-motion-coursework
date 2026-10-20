@@ -1,0 +1,10 @@
+{
+  "max_temperature_c": 80,
+  "max_process_allocated_mib": 200.66015625,
+  "max_total_device_used_mib": 1045,
+  "gpu_fit_seconds_sum": 383.08314356883056,
+  "packages_installed": [],
+  "driver_or_os_changes": [],
+  "remote_repository_actions": [],
+  "scope": "local review only"
+}

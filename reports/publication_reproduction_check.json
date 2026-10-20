@@ -1,0 +1,78 @@
+{
+  "feature_rebuild": {
+    "X": {
+      "max_abs_error": 8.881784197001252e-16,
+      "exact": false
+    },
+    "y": {
+      "exact": true
+    },
+    "recording": {
+      "exact": true
+    },
+    "trial": {
+      "exact": true
+    },
+    "subject": {
+      "exact": true
+    },
+    "window_start": {
+      "exact": true
+    },
+    "window": {
+      "exact": true
+    },
+    "peak_start": {
+      "exact": true
+    },
+    "feature_names": {
+      "exact": true
+    }
+  },
+  "raw_metadata_split_sha256_match_original": true,
+  "all_80_gpu_and_50_cpu_cv_recomputed": true,
+  "report_audit": {
+    "data_hashes_match": true,
+    "code_protocol_hashes_match": true,
+    "all_80_gpu_cv_folds_recomputed": true,
+    "all_50_cpu_cv_folds_recomputed": true,
+    "cv_indices_exclude_test": true,
+    "early_stopping_best_epochs_match_logs": true,
+    "final_selection_matches_cv": true,
+    "final_ensemble_matches_saved_seed_probabilities": true,
+    "cpu_and_gpu_trial_ids_and_true_labels_match": true,
+    "all_reported_scores_independently_match_sklearn": true
+  },
+  "compared_csv_reports": {
+    "cm_recording_svm_trial.csv": "exact CSV records",
+    "cm_recording_xgb_window.csv": "exact CSV records",
+    "cm_trial_spectral200_window.csv": "exact CSV records",
+    "cm_trial_rf_trial.csv": "exact CSV records",
+    "cm_trial_rf_window.csv": "exact CSV records",
+    "cm_recording_spectral200_trial.csv": "exact CSV records",
+    "cm_recording_xgb_trial.csv": "exact CSV records",
+    "cm_recording_spectral1000_trial.csv": "exact CSV records",
+    "cm_trial_spectral200_trial.csv": "exact CSV records",
+    "all_cpu_context_cv.csv": "exact CSV records",
+    "cm_recording_SVM_1s_moments_c1_trial.csv": "exact CSV records",
+    "cm_trial_xgb_trial.csv": "exact CSV records",
+    "cm_recording_spectral200_window.csv": "exact CSV records",
+    "cm_recording_rf_window.csv": "exact CSV records",
+    "cm_trial_xgb_window.csv": "exact CSV records",
+    "misclassified_trials.csv": "exact CSV records",
+    "cm_trial_svm_trial.csv": "exact CSV records",
+    "cm_trial_SVM_1s_mean_c10_trial.csv": "exact CSV records",
+    "per_record_accuracy.csv": "exact CSV records",
+    "all_comparisons.csv": "exact CSV records",
+    "all_gpu_cv.csv": "exact CSV records",
+    "cm_trial_spectral1000_trial.csv": "exact CSV records",
+    "cm_recording_svm_window.csv": "exact CSV records",
+    "cm_recording_rf_trial.csv": "exact CSV records",
+    "cm_trial_svm_window.csv": "exact CSV records",
+    "failure_modes.csv": "exact CSV records"
+  },
+  "original_experiment_scripts_unchanged": 7,
+  "unchanged_configs_results_figures": 328,
+  "new_model_training": false,
+  "note": "Rebuilt features locally from existing pinned raw CSVs; did not download again or tune after the final test."
+}

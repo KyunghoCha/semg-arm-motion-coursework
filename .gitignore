@@ -1,0 +1,19 @@
+# Local raw downloads, executable runs, caches and trained binaries.
+/runs/
+/raw/
+/data/
+/source_archives/
+/.transfer_helpers/
+/recovery/
+*.part
+*.pt
+*.joblib
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example
+*.zip
+# Rebuild private feature caches from the pinned original source.
+peak_energy1s70.npz

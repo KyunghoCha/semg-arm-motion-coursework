@@ -1,0 +1,12 @@
+{
+  "best_epoch": 18,
+  "epochs_completed": 18,
+  "seed": 42,
+  "parameters": 44488,
+  "seconds": 1.5671668690629303,
+  "normalization_train_rows": 1536,
+  "temperature_c": 67,
+  "device_memory_used_mib": 997,
+  "device_utilization_pct": 51,
+  "process_peak_allocated_mib": 164.4375
+}

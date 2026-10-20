@@ -1,0 +1,9 @@
+{
+  "locked_before_holdout": "2026-10-20T15:25:57.139100+00:00",
+  "files": {
+    "results/recording/FINAL_SELECTION_LOCK.json": "a616d17d4dd52f42211a24b5b6536cb85bc5b623f1ae5a25630254053ec9e2e9",
+    "results/trial/FINAL_SELECTION_LOCK.json": "42abe3152f83039d59b6fc1152226896e844465bd21c4565443807e84cd2c093",
+    "results/cpu_trial_control/recording/SELECTION_LOCK.json": "77ceb2bb751f1605a6fe025fbf5c08168f70cf08afc17101a832aca849451a91",
+    "results/cpu_trial_control/trial/SELECTION_LOCK.json": "d3add2bd6312eccac2db728a50f385854303888b8cb9a2583df3994fdfe71702"
+  }
+}

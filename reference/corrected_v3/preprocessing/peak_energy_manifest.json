@@ -1,0 +1,24 @@
+[
+  {
+    "file": "peak_energy1s25.npz",
+    "sha256": "151489d548d91d753449287a6ee72a2f226a8ba27faf34a4abb556f0e018ebea",
+    "shape": [
+      17280,
+      25
+    ],
+    "trials": 1920,
+    "windows_per_trial": 9,
+    "features": 25
+  },
+  {
+    "file": "peak_energy1s70.npz",
+    "sha256": "75f4ad89a9b48eb36b63345a7d1f16f68e50358df4c15693008e6b5babacb40c",
+    "shape": [
+      17280,
+      70
+    ],
+    "trials": 1920,
+    "windows_per_trial": 9,
+    "features": 70
+  }
+]

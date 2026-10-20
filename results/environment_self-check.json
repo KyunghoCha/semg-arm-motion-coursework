@@ -1,0 +1,15 @@
+{
+  "time": "2026-10-20T15:14:23.760138+00:00",
+  "python": "3.10.12",
+  "python_executable": "python3",
+  "torch": "2.6.0+cu118",
+  "numpy": "1.26.4",
+  "cuda_runtime": "11.8",
+  "cudnn": 90100,
+  "gpu": "NVIDIA TITAN Xp",
+  "compute_capability": [
+    6,
+    1
+  ],
+  "gpu_total_memory": 12771524608
+}

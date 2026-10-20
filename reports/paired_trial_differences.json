@@ -1,0 +1,74 @@
+[
+  {
+    "protocol": "recording",
+    "model": "spectral200",
+    "baseline": "xgb",
+    "trial_accuracy_difference": -0.01282051282051282,
+    "exploratory_subject_cluster_95pct_interval": [
+      -0.07142857142857142,
+      0.04358974358974359
+    ],
+    "n_subjects": 6,
+    "warning": "Retrospective reused test; participant count is n_subjects; not prospective generalization evidence."
+  },
+  {
+    "protocol": "recording",
+    "model": "spectral1000",
+    "baseline": "xgb",
+    "trial_accuracy_difference": 0.24615384615384617,
+    "exploratory_subject_cluster_95pct_interval": [
+      0.1,
+      0.36904761904761907
+    ],
+    "n_subjects": 6,
+    "warning": "Retrospective reused test; participant count is n_subjects; not prospective generalization evidence."
+  },
+  {
+    "protocol": "recording",
+    "model": "SVM_1s_moments_c1",
+    "baseline": "xgb",
+    "trial_accuracy_difference": 0.07179487179487179,
+    "exploratory_subject_cluster_95pct_interval": [
+      0.015384615384615385,
+      0.1400119047619048
+    ],
+    "n_subjects": 6,
+    "warning": "Retrospective reused test; participant count is n_subjects; not prospective generalization evidence."
+  },
+  {
+    "protocol": "trial",
+    "model": "spectral200",
+    "baseline": "svm",
+    "trial_accuracy_difference": 0.020833333333333332,
+    "exploratory_subject_cluster_95pct_interval": [
+      -0.005208333333333333,
+      0.046875
+    ],
+    "n_subjects": 8,
+    "warning": "Retrospective reused test; participant count is n_subjects; not prospective generalization evidence."
+  },
+  {
+    "protocol": "trial",
+    "model": "spectral1000",
+    "baseline": "svm",
+    "trial_accuracy_difference": -0.013020833333333334,
+    "exploratory_subject_cluster_95pct_interval": [
+      -0.03912760416666664,
+      0.015625
+    ],
+    "n_subjects": 8,
+    "warning": "Retrospective reused test; participant count is n_subjects; not prospective generalization evidence."
+  },
+  {
+    "protocol": "trial",
+    "model": "SVM_1s_mean_c10",
+    "baseline": "svm",
+    "trial_accuracy_difference": -0.0026041666666666665,
+    "exploratory_subject_cluster_95pct_interval": [
+      -0.03652343749999998,
+      0.03125
+    ],
+    "n_subjects": 8,
+    "warning": "Retrospective reused test; participant count is n_subjects; not prospective generalization evidence."
+  }
+]

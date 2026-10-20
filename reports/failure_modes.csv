@@ -1,0 +1,13 @@
+protocol,model,errors,same_gesture_wrong_angle,different_gesture
+recording,svm,319,248,71
+recording,rf,309,259,50
+recording,xgb,289,242,47
+trial,svm,19,18,1
+trial,rf,18,12,6
+trial,xgb,36,32,4
+recording,spectral200,294,222,72
+recording,spectral1000,193,153,40
+trial,spectral200,11,11,0
+trial,spectral1000,24,24,0
+recording,SVM_1s_moments_c1,261,237,24
+trial,SVM_1s_mean_c10,20,16,4

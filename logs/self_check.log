@@ -1,0 +1,30 @@
+{
+  "raw200": {
+    "initial_loss": 2.2500243186950684,
+    "final_loss": 2.249670069431886e-05,
+    "training_accuracy": 1.0,
+    "reload_max_abs_error": 0.0,
+    "parameters": 53720
+  },
+  "spectral200": {
+    "initial_loss": 2.061876058578491,
+    "final_loss": 2.516758286219556e-05,
+    "training_accuracy": 1.0,
+    "reload_max_abs_error": 0.0,
+    "parameters": 44488
+  },
+  "raw1000": {
+    "initial_loss": 2.3235089778900146,
+    "final_loss": 4.014264777651988e-05,
+    "training_accuracy": 1.0,
+    "reload_max_abs_error": 0.0,
+    "parameters": 53720
+  },
+  "spectral1000": {
+    "initial_loss": 2.0874836444854736,
+    "final_loss": 2.413937727396842e-05,
+    "training_accuracy": 1.0,
+    "reload_max_abs_error": 0.0,
+    "parameters": 44488
+  }
+}

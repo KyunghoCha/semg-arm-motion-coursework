@@ -1,0 +1,12 @@
+{
+  "data_hashes_match": true,
+  "code_protocol_hashes_match": true,
+  "all_80_gpu_cv_folds_recomputed": true,
+  "all_50_cpu_cv_folds_recomputed": true,
+  "cv_indices_exclude_test": true,
+  "early_stopping_best_epochs_match_logs": true,
+  "final_selection_matches_cv": true,
+  "final_ensemble_matches_saved_seed_probabilities": true,
+  "cpu_and_gpu_trial_ids_and_true_labels_match": true,
+  "all_reported_scores_independently_match_sklearn": true
+}

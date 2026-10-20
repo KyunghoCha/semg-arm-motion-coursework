@@ -1,0 +1,182 @@
+audited a_30 extor.csv
+audited a_30 fist.csv
+audited a_30 open.csv
+audited a_30 pro.csv
+audited a_60 extor.csv
+audited a_60 fist.csv
+audited a_60 open.csv
+audited a_60 pro.csv
+audited b_30 extor.csv
+audited b_30 fist.csv
+audited b_30 open.csv
+audited b_30 pro.csv
+audited b_60 extor.csv
+audited b_60 fist.csv
+audited b_60 open.csv
+audited b_60 pro.csv
+audited c_30 extor.csv
+audited c_30 fist.csv
+audited c_30 open.csv
+audited c_30 pro.csv
+audited c_60 extor.csv
+audited c_60 fist.csv
+audited c_60 open.csv
+audited c_60 pro.csv
+audited d_30 extor.csv
+audited d_30 fist.csv
+audited d_30 open.csv
+audited d_30 pro.csv
+audited d_60 extor.csv
+audited d_60 fist.csv
+audited d_60 open.csv
+audited d_60 pro.csv
+audited e_30 extor.csv
+audited e_30 fist.csv
+audited e_30 open.csv
+audited e_30 pro.csv
+audited e_60 extor.csv
+audited e_60 fist.csv
+audited e_60 open.csv
+audited e_60 pro.csv
+audited f_30 extor.csv
+audited f_30 fist.csv
+audited f_30 open.csv
+audited f_30 pro.csv
+audited f_60 extor.csv
+audited f_60 fist.csv
+audited f_60 open.csv
+audited f_60 pro.csv
+audited g_30 extor.csv
+audited g_30 fist.csv
+audited g_30 open.csv
+audited g_30 pro.csv
+audited g_60 extor.csv
+audited g_60 fist.csv
+audited g_60 open.csv
+audited g_60 pro.csv
+audited h_30 extor.csv
+audited h_30 fist.csv
+audited h_30 open.csv
+audited h_30 pro.csv
+audited h_60 extor.csv
+audited h_60 fist.csv
+audited h_60 open.csv
+audited h_60 pro.csv
+{
+  "records": 64,
+  "trials": 1920,
+  "channels": 5,
+  "classes": 8,
+  "subjects": 8,
+  "recomputed_25_feature_max_abs_error": 0.0,
+  "splits": {
+    "recording": {
+      "development_windows": 13770,
+      "test_windows": 3510,
+      "development_trials": 1530,
+      "test_trials": 390,
+      "development_recordings": 51,
+      "test_recordings": 13,
+      "subject_overlap": [
+        "a",
+        "b",
+        "d",
+        "e",
+        "g",
+        "h"
+      ],
+      "development_class_window_counts": [
+        1890,
+        1890,
+        1620,
+        1620,
+        1620,
+        1890,
+        1620,
+        1620
+      ],
+      "test_class_window_counts": [
+        270,
+        270,
+        540,
+        540,
+        540,
+        270,
+        540,
+        540
+      ]
+    },
+    "trial": {
+      "development_windows": 13824,
+      "test_windows": 3456,
+      "development_trials": 1536,
+      "test_trials": 384,
+      "development_recordings": 64,
+      "test_recordings": 64,
+      "subject_overlap": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h"
+      ],
+      "development_class_window_counts": [
+        1728,
+        1728,
+        1728,
+        1728,
+        1728,
+        1728,
+        1728,
+        1728
+      ],
+      "test_class_window_counts": [
+        432,
+        432,
+        432,
+        432,
+        432,
+        432,
+        432,
+        432
+      ]
+    }
+  },
+  "a_development_only": {
+    "offset_ms_quantiles": [
+      500.0,
+      900.0,
+      1100.0,
+      1300.0,
+      2500.0
+    ],
+    "peak_second_counts": [
+      58,
+      1279,
+      192,
+      1,
+      0
+    ],
+    "between_record_log_rms_sd": [
+      0.22825525921097997,
+      0.2732002007706433,
+      0.332948641031884,
+      0.21742383966495848,
+      0.2310509309781187
+    ],
+    "within_record_log_rms_sd": [
+      0.06517447298961729,
+      0.07996020737914507,
+      0.08142324009483284,
+      0.09462329940141138,
+      0.0740681121129463
+    ],
+    "dominant_channel_over_80pct": 0.0392156862745098
+  },
+  "interpretation": "Record differences include classes, people, electrode conditions; this does not isolate a causal source.",
+  "marker_semantics": "Not verified as physiological movement onset.",
+  "source_filter_limit": "Upstream preprocessing across trial boundaries cannot be undone."
+}
