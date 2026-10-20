@@ -475,6 +475,8 @@ experiments/ml_v3/
   artifacts/  # 설정·집계·예측·로그·그림; 원신호·특징행렬·모델 제외
 ```
 
+새 작업 루트의 준비와 CPU 기준선 생성 순서는 [루트 재현 절차](../../README.md#144-개발-전용-전통-ml의-전체-재현)에 있다.
+
 원래 저장소의 데이터 준비와 앞선 `generalization_v2/prepare.py`를 완료한 작업 루트에서
 실행한다. 작업 루트 바로 아래에 저장소와 `step2_gpu_pc`, `step2_improvement_v2`,
 `step2_ml_v3`가 나란히 놓인다. 새 결과를 재생성할 때에는 비어 있는 별도 루트를 사용한다.
@@ -508,7 +510,7 @@ $PY experiments/ml_v3/report.py
 
 설정과 선택 파일은 덮어쓰지 않는다. 원신호·특징 캐시·학습 모델은 로컬
 `step2_ml_v3`에 있고 검토용 결과 묶음에서 제외했다. 로그 사본의 개인 홈·작업 루트는
-치환했으며 원본 로그는 보존했다. 현재 메인 README와 원격 공개 저장소는 변경하지 않았다.
+치환했으며 원본 로그는 보존했다. 기존 공개 main은 보존했고, 누적 결과는 연구 브랜치의 루트 README에 통합했다. 추가 결과는 원격에 게시하지 않았다.
 """
     (HERE/"README.md").write_text(doc)
     artifact = HERE/"artifacts"
