@@ -219,6 +219,8 @@ def self_check():
         m.save(folder)
         loaded = Model(m.config)
         loaded.heads = [xgb.Booster(model_file=folder / f"head{i}.ubj") for i in range(len(m.heads))]
+        for head in loaded.heads:
+            head.set_param({"device": "cuda:0", "nthread": 2})
         assert np.array_equal(prob, loaded.predict_proba(x))
         checks[structure] = dict(toy_accuracy=acc, replay_exact=True)
     write(OUT / "reports/self_check.json", dict(checks=checks, splits_checked=480, resource=resource()))
