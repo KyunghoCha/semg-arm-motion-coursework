@@ -1,0 +1,127 @@
+{
+  "accuracy": 0.29285714285714287,
+  "macro_f1": 0.2745224486889434,
+  "macro_precision": 0.2951331036238042,
+  "macro_recall": 0.27083333333333337,
+  "gesture_accuracy": 0.8476190476190476,
+  "angle_accuracy": 0.3595238095238095,
+  "confusion_matrix": [
+    [
+      16,
+      16,
+      0,
+      28,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      15,
+      6,
+      2,
+      0,
+      0,
+      6,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      16,
+      43,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      36,
+      20,
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      22,
+      20,
+      16,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      49,
+      9,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      29
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      25,
+      33
+    ]
+  ],
+  "n": 420,
+  "name": "legacy_joint_d6",
+  "config": {
+    "feature": "legacy",
+    "structure": "joint",
+    "depth": 6
+  },
+  "timestamp": "2026-10-20T20:07:17.771535+00:00",
+  "fit_seconds": 1.3194889570586383,
+  "train_accuracy": 0.9975308641975309,
+  "train_recordings": 27,
+  "validation_recordings": 14,
+  "resources": [
+    {
+      "timestamp": "2026-10-20T20:07:16.423141+00:00",
+      "temperature_c": 80,
+      "device_memory_mib": 811,
+      "utilization": 65
+    },
+    {
+      "timestamp": "2026-10-20T20:07:17.788672+00:00",
+      "temperature_c": 80,
+      "device_memory_mib": 811,
+      "utilization": 58
+    }
+  ],
+  "device": "cuda:0",
+  "classes_present": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "isolation": "new venv, system_site_packages read-only reuse, installs local to venv",
+  "base_packages_unchanged": {
+    "packages_unchanged": 554,
+    "equal": true
+  },
+  "packages": [
+    {
+      "name": "xgboost",
+      "version": "3.0.5",
+      "wheel": {
+        "url": "https://files.pythonhosted.org/packages/64/ad/61a86228e981b15361ff963e84648b1a29ab43debd95f7c2b3ef9d94dca1/xgboost-3.0.5-py3-none-manylinux_2_28_x86_64.whl",
+        "archive_info": {
+          "hash": "sha256=a03210a3e54c9e543f480db9636fee57247cfcd1ae850b353aeac59eea5ca350",
+          "hashes": {
+            "sha256": "a03210a3e54c9e543f480db9636fee57247cfcd1ae850b353aeac59eea5ca350"
+          }
+        }
+      }
+    },
+    {
+      "name": "nvidia-nccl-cu12",
+      "version": "2.32.3",
+      "wheel": {
+        "url": "https://files.pythonhosted.org/packages/f3/f8/9dce3698eed6fae28078eb38f748feb1665767693d8017c099de9fbf0b08/nvidia_nccl_cu12-2.32.3-py3-none-manylinux_2_27_x86_64.whl",
+        "archive_info": {
+          "hash": "sha256=bb94b2348e4861d5e8aa00b36c3d12d9bdf9c6369b82cbb723de0b582280a21c",
+          "hashes": {
+            "sha256": "bb94b2348e4861d5e8aa00b36c3d12d9bdf9c6369b82cbb723de0b582280a21c"
+          }
+        }
+      }
+    }
+  ],
+  "gpu_check": {
+    "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:16:10) [GCC 11.2.0]",
+    "xgboost": "3.0.5",
+    "numpy": "2.3.5",
+    "build_info": {
+      "BUILTIN_PREFETCH_PRESENT": true,
+      "CUDA_VERSION": [
+        12,
+        8
+      ],
+      "DEBUG": false,
+      "GCC_VERSION": [
+        10,
+        3,
+        1
+      ],
+      "GLIBC_VERSION": [
+        2,
+        28
+      ],
+      "MM_PREFETCH_PRESENT": true,
+      "NCCL_VERSION": [
+        2,
+        27,
+        7
+      ],
+      "THRUST_VERSION": [
+        2,
+        7,
+        0
+      ],
+      "USE_CUDA": true,
+      "USE_DLOPEN_NCCL": true,
+      "USE_FEDERATED": true,
+      "USE_NCCL": true,
+      "USE_OPENMP": true,
+      "USE_RMM": false
+    },
+    "device": "cuda:0",
+    "toy_accuracy": 1.0,
+    "elapsed_seconds": 0.2689860810060054,
+    "saved_model_prediction_equal": true,
+    "nvidia_nccl_cu12": "2.32.3"
+  },
+  "install_index": "https://pypi.org/simple",
+  "gpu": "NVIDIA TITAN Xp, 12288 MiB",
+  "driver": "580.178.04"
+}

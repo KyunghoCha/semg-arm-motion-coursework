@@ -1,0 +1,155 @@
+{
+  "timestamp": "2026-10-20T19:57:35.399413+00:00",
+  "frozen": {
+    "config": {
+      "legacy_joint_d2": {
+        "feature": "legacy",
+        "structure": "joint",
+        "depth": 2
+      },
+      "legacy_joint_d4": {
+        "feature": "legacy",
+        "structure": "joint",
+        "depth": 4
+      },
+      "legacy_joint_d6": {
+        "feature": "legacy",
+        "structure": "joint",
+        "depth": 6
+      },
+      "legacy_independent_d2": {
+        "feature": "legacy",
+        "structure": "independent",
+        "depth": 2
+      },
+      "legacy_independent_d4": {
+        "feature": "legacy",
+        "structure": "independent",
+        "depth": 4
+      },
+      "legacy_independent_d6": {
+        "feature": "legacy",
+        "structure": "independent",
+        "depth": 6
+      },
+      "robust_joint_d2": {
+        "feature": "robust",
+        "structure": "joint",
+        "depth": 2
+      },
+      "robust_joint_d4": {
+        "feature": "robust",
+        "structure": "joint",
+        "depth": 4
+      },
+      "robust_joint_d6": {
+        "feature": "robust",
+        "structure": "joint",
+        "depth": 6
+      },
+      "robust_independent_d2": {
+        "feature": "robust",
+        "structure": "independent",
+        "depth": 2
+      },
+      "robust_independent_d4": {
+        "feature": "robust",
+        "structure": "independent",
+        "depth": 4
+      },
+      "robust_independent_d6": {
+        "feature": "robust",
+        "structure": "independent",
+        "depth": 6
+      },
+      "fusion_joint_d2": {
+        "feature": "fusion",
+        "structure": "joint",
+        "depth": 2
+      },
+      "fusion_joint_d4": {
+        "feature": "fusion",
+        "structure": "joint",
+        "depth": 4
+      },
+      "fusion_joint_d6": {
+        "feature": "fusion",
+        "structure": "joint",
+        "depth": 6
+      },
+      "fusion_independent_d2": {
+        "feature": "fusion",
+        "structure": "independent",
+        "depth": 2
+      },
+      "fusion_independent_d4": {
+        "feature": "fusion",
+        "structure": "independent",
+        "depth": 4
+      },
+      "fusion_independent_d6": {
+        "feature": "fusion",
+        "structure": "independent",
+        "depth": 6
+      },
+      "relative_joint_d2": {
+        "feature": "relative",
+        "structure": "joint",
+        "depth": 2
+      },
+      "relative_joint_d4": {
+        "feature": "relative",
+        "structure": "joint",
+        "depth": 4
+      },
+      "relative_joint_d6": {
+        "feature": "relative",
+        "structure": "joint",
+        "depth": 6
+      },
+      "relative_independent_d2": {
+        "feature": "relative",
+        "structure": "independent",
+        "depth": 2
+      },
+      "relative_independent_d4": {
+        "feature": "relative",
+        "structure": "independent",
+        "depth": 4
+      },
+      "relative_independent_d6": {
+        "feature": "relative",
+        "structure": "independent",
+        "depth": 6
+      }
+    },
+    "params": {
+      "tree_method": "hist",
+      "device": "cuda:0",
+      "eta": 0.05,
+      "min_child_weight": 5,
+      "reg_lambda": 5,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "max_bin": 128,
+      "nthread": 2,
+      "objective": "multi:softprob",
+      "eval_metric": "mlogloss",
+      "seed": 20261024
+    },
+    "rounds": 200,
+    "sources": {
+      "run_experiment.py": "647a1dfbf9ffca262b07049736d1d6477c082e924e0d2278b9405b9978bced6b",
+      "PROTOCOL.md": "d75c4230aeb2c314187613ab69db3687ffc45d196e3b1a24d9cbb92ae0b9b89f"
+    },
+    "reused_helpers_sha256": "3c1863e4a0b2ed783e171a211fb7a8f778aecdda147ec053045098eacfd66d55",
+    "manifest_sha256": "4267aad28dfec5a7d198f1a3d95a86b43ad45b7a21d5fe92415a6e7364068112",
+    "diagnostic_splits_sha256": "ae9102888771c42fef53ded0eb438d6214bdae974f8f01e4e8d425ca16bdba5f",
+    "environment": {
+      "python": "3.13.9",
+      "xgboost": "3.0.5",
+      "numpy": "2.3.5"
+    }
+  },
+  "A_B_test_evaluation": false
+}

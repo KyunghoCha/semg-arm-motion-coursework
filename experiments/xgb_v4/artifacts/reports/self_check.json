@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "joint": {
+      "toy_accuracy": 1.0,
+      "replay_exact": true
+    },
+    "independent": {
+      "toy_accuracy": 1.0,
+      "replay_exact": true
+    }
+  },
+  "splits_checked": 480,
+  "resource": {
+    "timestamp": "2026-10-20T19:57:36.419991+00:00",
+    "temperature_c": 58,
+    "device_memory_mib": 809,
+    "utilization": 54
+  }
+}

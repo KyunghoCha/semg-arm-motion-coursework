@@ -1,0 +1,10 @@
+{
+  "stage": "synthetic pre-data check",
+  "error": "exact probability replay assertion",
+  "cause": "loaded Booster defaults to CPU; original uses GPU",
+  "cpu_gpu_max_abs_difference": 1.1920928955078125e-07,
+  "labels_equal": true,
+  "same_cuda_max_abs_difference": 0.0,
+  "repair": "restore explicit cuda:0 before replay",
+  "task_data_training_started_at_failure": false
+}

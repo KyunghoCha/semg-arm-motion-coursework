@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-10-20T20:11:15.592597+00:00",
+  "spec": {
+    "config": {
+      "legacy_angle10": {
+        "feature": "legacy",
+        "structure": "independent",
+        "depth": 2,
+        "angle_rounds": 10
+      },
+      "legacy_angle25": {
+        "feature": "legacy",
+        "structure": "independent",
+        "depth": 2,
+        "angle_rounds": 25
+      },
+      "legacy_angle50": {
+        "feature": "legacy",
+        "structure": "independent",
+        "depth": 2,
+        "angle_rounds": 50
+      },
+      "legacy_angle100": {
+        "feature": "legacy",
+        "structure": "independent",
+        "depth": 2,
+        "angle_rounds": 100
+      },
+      "robust_angle10": {
+        "feature": "robust",
+        "structure": "independent",
+        "depth": 2,
+        "angle_rounds": 10
+      },
+      "robust_angle25": {
+        "feature": "robust",
+        "structure": "independent",
+        "depth": 2,
+        "angle_rounds": 25
+      },
+      "robust_angle50": {
+        "feature": "robust",
+        "structure": "independent",
+        "depth": 2,
+        "angle_rounds": 50
+      },
+      "robust_angle100": {
+        "feature": "robust",
+        "structure": "independent",
+        "depth": 2,
+        "angle_rounds": 100
+      },
+      "fusion_angle10": {
+        "feature": "fusion",
+        "structure": "independent",
+        "depth": 2,
+        "angle_rounds": 10
+      },
+      "fusion_angle25": {
+        "feature": "fusion",
+        "structure": "independent",
+        "depth": 2,
+        "angle_rounds": 25
+      },
+      "fusion_angle50": {
+        "feature": "fusion",
+        "structure": "independent",
+        "depth": 2,
+        "angle_rounds": 50
+      },
+      "fusion_angle100": {
+        "feature": "fusion",
+        "structure": "independent",
+        "depth": 2,
+        "angle_rounds": 100
+      },
+      "relative_angle10": {
+        "feature": "relative",
+        "structure": "independent",
+        "depth": 2,
+        "angle_rounds": 10
+      },
+      "relative_angle25": {
+        "feature": "relative",
+        "structure": "independent",
+        "depth": 2,
+        "angle_rounds": 25
+      },
+      "relative_angle50": {
+        "feature": "relative",
+        "structure": "independent",
+        "depth": 2,
+        "angle_rounds": 50
+      },
+      "relative_angle100": {
+        "feature": "relative",
+        "structure": "independent",
+        "depth": 2,
+        "angle_rounds": 100
+      }
+    },
+    "source_sha256": "f4d6d9515a4a1250715e00f3aaf13a2ad4741cfe532fdd85d38917989e9c0225",
+    "plan_sha256": "634612c4711e168d34d363e8a6ac272a3c29f7daba8bfe65d0f1342c65e025b3",
+    "previous_selection_sha256": "1482b196385b1e4e070ac6968f96cf2f2bf3ab79dae9bcf4fe875189ab997496",
+    "input_manifest_sha256": "4267aad28dfec5a7d198f1a3d95a86b43ad45b7a21d5fe92415a6e7364068112",
+    "prior_outer_results_seen": true,
+    "purpose": "adaptive development selection only; no repeated outer/test evaluation"
+  }
+}

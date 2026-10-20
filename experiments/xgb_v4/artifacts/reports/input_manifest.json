@@ -1,0 +1,54 @@
+{
+  "rows": 1530,
+  "records": 51,
+  "original_test_rows": 0,
+  "features": {
+    "legacy": [
+      1530,
+      140
+    ],
+    "robust": [
+      1530,
+      280
+    ],
+    "spectrum": [
+      1530,
+      105
+    ],
+    "relations": [
+      1530,
+      150
+    ],
+    "fusion": [
+      1530,
+      395
+    ],
+    "relative": [
+      1530,
+      320
+    ],
+    "upper": [
+      1530,
+      56
+    ],
+    "forearm": [
+      1530,
+      84
+    ]
+  },
+  "hashes": {
+    "spectrum.npy": "a4727298207aadbeffa9ff6391dc5e5b93d09abc941aed55c1de711a8cd88097",
+    "robust.npy": "0a232004cf097cc78cd2ff6d1fcefcc476cc69e6c34ef6f7016fb7286177785e",
+    "relative.npy": "2846cb62f8ab9fc513f9683f3d738c9ae90c2b48b4b3f9064c4e851db644513e",
+    "forearm.npy": "e0d79bcd3394f54e83ef2c2742ff9648e856260f220eac822d24cc1371fa51bd",
+    "legacy.npy": "dc3d0705f103e151e8523cc42a6b19998bb422a19063a67c598563bd6891626f",
+    "upper.npy": "3199a5c676aab4ab60f5ff0362057facc551152b994bf992d01f7571533205c6",
+    "splits.npz": "e9ba3efd17923a15a95a84967777e1d849f963d2a4b52c279eb0866ef3c3be71",
+    "fusion.npy": "c79ef9fec5ffefed48299b6a36cf4208d226ac53eb38ea3f1f9e1484c15a3483",
+    "relations.npy": "b15f8ed2be69f560abe1b2a71bacc4068d8bf8ec8e52f89dd324d85d90e93d08"
+  },
+  "source_raw_sha256": "4b3f22a81e977837f95ea5ef9f8a387927b17228c49c95fdf2024184fe192320",
+  "source_split_sha256": "4073a13b1d2354185103611687f21fdaea5d537f46e7538ac07a6b73ee38dc43",
+  "source_sha256": "e9729da6f3f85fcdb216118b50b0f46603c5702668fad7fe63cb686678e6b23d",
+  "protocol_sha256": "0d0b54a817903c96f223566b30e84f769ccda54b42e2a05fb01cd619d8615cd3"
+}

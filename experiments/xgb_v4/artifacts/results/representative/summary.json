@@ -1,0 +1,20 @@
+{
+  "name": "fusion_independent_d2",
+  "config": {
+    "feature": "fusion",
+    "structure": "independent",
+    "depth": 2
+  },
+  "timestamp": "2026-10-20T20:09:10.557459+00:00",
+  "fit_seconds": 0.9961320881266147,
+  "n": 1530,
+  "evaluation": "none; all development training only",
+  "resources": [
+    {
+      "timestamp": "2026-10-20T20:09:10.574894+00:00",
+      "temperature_c": 80,
+      "device_memory_mib": 827,
+      "utilization": 68
+    }
+  ]
+}

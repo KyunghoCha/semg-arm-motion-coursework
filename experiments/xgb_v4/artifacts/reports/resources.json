@@ -1,0 +1,17 @@
+{
+  "completed_fit_calls": 504,
+  "screen_fits": 120,
+  "inner_fits": 360,
+  "outer_fits": 5,
+  "diagnostic_fits": 18,
+  "representative_fits": 1,
+  "summed_fit_seconds": 626.2808515476063,
+  "first_completed_at": "2026-10-20T19:58:06.226402+00:00",
+  "last_completed_at": "2026-10-20T20:09:10.557459+00:00",
+  "sampled_max_temperature_c": 80,
+  "sampled_max_device_memory_mib": 864,
+  "failure_count": 0,
+  "synthetic_predata_failure_resolved": true,
+  "A_B_test_evaluations": 0,
+  "sampling": "before/after each fit; not continuous peak measurement"
+}

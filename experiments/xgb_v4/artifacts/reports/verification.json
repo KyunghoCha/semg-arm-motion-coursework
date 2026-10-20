@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-10-20T20:09:27.077086+00:00",
+  "evaluated_fits": 503,
+  "representative_fit": 1,
+  "development_only": true,
+  "previous_test_rows": 0,
+  "all_metrics_recomputed": true,
+  "all_splits_disjoint": true,
+  "selection_precedes_outer": true,
+  "outer_checkpoint_replay": [
+    {
+      "folder": "outer/fold0",
+      "exact_cuda_probability_replay": true,
+      "probability_max_abs_error": 0.0,
+      "single_feature_input_ms": 9.809549800120294,
+      "timing_includes_DMatrix_and_transfer": true,
+      "excludes_feature_extraction": true
+    },
+    {
+      "folder": "outer/fold1",
+      "exact_cuda_probability_replay": true,
+      "probability_max_abs_error": 0.0,
+      "single_feature_input_ms": 9.398283888585865,
+      "timing_includes_DMatrix_and_transfer": true,
+      "excludes_feature_extraction": true
+    },
+    {
+      "folder": "outer/fold2",
+      "exact_cuda_probability_replay": true,
+      "probability_max_abs_error": 0.0,
+      "single_feature_input_ms": 10.652493049856275,
+      "timing_includes_DMatrix_and_transfer": true,
+      "excludes_feature_extraction": true
+    },
+    {
+      "folder": "outer/fold3",
+      "exact_cuda_probability_replay": true,
+      "probability_max_abs_error": 0.0,
+      "single_feature_input_ms": 9.208039578516036,
+      "timing_includes_DMatrix_and_transfer": true,
+      "excludes_feature_extraction": true
+    },
+    {
+      "folder": "outer/fold4",
+      "exact_cuda_probability_replay": true,
+      "probability_max_abs_error": 0.0,
+      "single_feature_input_ms": 9.192040949128568,
+      "timing_includes_DMatrix_and_transfer": true,
+      "excludes_feature_extraction": true
+    }
+  ],
+  "features_and_source_hashes_verified": true
+}
